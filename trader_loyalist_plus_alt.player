@@ -1,0 +1,3120 @@
+{
+  "version": 0,
+  "race": "trader",
+  "home_planet": {
+    "random_fixture_filling": "random_terran_home_planet",
+    "levels": [
+      {
+        "income_rates": { "credits": 2, "metal": 1.5, "crystal": 1.5 },
+        "modifier_values": {
+          "max_civilian_structure_slots": { "additive": 3 },
+          "max_military_structure_slots": { "additive": 10 },
+          "max_health_points": { "additive": 2000 }
+        }
+      }
+    ],
+    "starting_track_levels": { "logistics": 1, "commerce": 2, "mining": 1 },
+    "starting_planet_components": [
+      "trader_loyalist_homeworld_home_guard_command"
+    ],
+    "establish_price": { "credits": 2000, "metal": 1000, "crystal": 1000 },
+    "establish_duration": 300
+  },
+  "influence": { "reveal_npc_point_costs": [1, 2, 3, 4, 5, 6] },
+  "planet_levels": [
+    {
+      "upgrade_price": { "credits": 150, "metal": 75, "crystal": 25 },
+      "upgrade_duration": 30,
+      "experience_given_on_bombed_to_neutral": 100
+    },
+    {
+      "upgrade_price": { "credits": 200, "metal": 100, "crystal": 40 },
+      "upgrade_duration": 40,
+      "experience_given_on_bombed_to_neutral": 200
+    },
+    {
+      "upgrade_price": { "credits": 250, "metal": 125, "crystal": 55 },
+      "upgrade_duration": 50,
+      "experience_given_on_bombed_to_neutral": 300
+    },
+    {
+      "upgrade_price": { "credits": 300, "metal": 150, "crystal": 70 },
+      "upgrade_duration": 60,
+      "experience_given_on_bombed_to_neutral": 400
+    },
+    {
+      "upgrade_price": { "credits": 350, "metal": 175, "crystal": 85 },
+      "upgrade_duration": 70,
+      "experience_given_on_bombed_to_neutral": 500
+    },
+    {
+      "upgrade_price": { "credits": 400, "metal": 200, "crystal": 100 },
+      "upgrade_duration": 80,
+      "experience_given_on_bombed_to_neutral": 600
+    },
+    {
+      "upgrade_price": { "credits": 500, "metal": 250, "crystal": 125 },
+      "upgrade_duration": 90,
+      "experience_given_on_bombed_to_neutral": 700
+    },
+    {
+      "upgrade_price": { "credits": 600, "metal": 300, "crystal": 150 },
+      "upgrade_duration": 100,
+      "experience_given_on_bombed_to_neutral": 800
+    },
+    {
+      "upgrade_price": { "credits": 700, "metal": 350, "crystal": 175 },
+      "upgrade_duration": 105,
+      "experience_given_on_bombed_to_neutral": 900
+    },
+    {
+      "upgrade_price": { "credits": 800, "metal": 400, "crystal": 200 },
+      "upgrade_duration": 110,
+      "experience_given_on_bombed_to_neutral": 1000
+    },
+    {
+      "upgrade_price": { "credits": 900, "metal": 450, "crystal": 225 },
+      "upgrade_duration": 115,
+      "experience_given_on_bombed_to_neutral": 1100
+    },
+    {
+      "upgrade_price": { "credits": 1000, "metal": 500, "crystal": 250 },
+      "upgrade_duration": 120,
+      "experience_given_on_bombed_to_neutral": 1200
+    },
+    {
+      "upgrade_price": { "credits": 1025, "metal": 515, "crystal": 275 },
+      "upgrade_duration": 125,
+      "experience_given_on_bombed_to_neutral": 1300
+    },
+    {
+      "upgrade_price": { "credits": 1050, "metal": 530, "crystal": 300 },
+      "upgrade_duration": 130,
+      "experience_given_on_bombed_to_neutral": 1400
+    },
+    {
+      "upgrade_price": { "credits": 1075, "metal": 545, "crystal": 325 },
+      "upgrade_duration": 135,
+      "experience_given_on_bombed_to_neutral": 1500
+    },
+    {
+      "upgrade_price": { "credits": 1100, "metal": 560, "crystal": 350 },
+      "upgrade_duration": 140,
+      "experience_given_on_bombed_to_neutral": 1600
+    },
+    {
+      "upgrade_price": { "credits": 1125, "metal": 575, "crystal": 375 },
+      "upgrade_duration": 145,
+      "experience_given_on_bombed_to_neutral": 1700
+    },
+    {
+      "upgrade_price": { "credits": 1150, "metal": 590, "crystal": 400 },
+      "upgrade_duration": 150,
+      "experience_given_on_bombed_to_neutral": 1800
+    },
+    {
+      "upgrade_price": { "credits": 1175, "metal": 605, "crystal": 425 },
+      "upgrade_duration": 155,
+      "experience_given_on_bombed_to_neutral": 1900
+    },
+    {
+      "upgrade_price": { "credits": 1200, "metal": 620, "crystal": 450 },
+      "upgrade_duration": 160,
+      "experience_given_on_bombed_to_neutral": 2000
+    },
+    {
+      "upgrade_price": { "credits": 1225, "metal": 635, "crystal": 475 },
+      "upgrade_duration": 165,
+      "experience_given_on_bombed_to_neutral": 2100
+    },
+    {
+      "upgrade_price": { "credits": 1250, "metal": 650, "crystal": 500 },
+      "upgrade_duration": 170,
+      "experience_given_on_bombed_to_neutral": 2200
+    },
+    {
+      "upgrade_price": { "credits": 1275, "metal": 665, "crystal": 525 },
+      "upgrade_duration": 175,
+      "experience_given_on_bombed_to_neutral": 2300
+    },
+    {
+      "upgrade_price": { "credits": 1300, "metal": 680, "crystal": 550 },
+      "upgrade_duration": 180,
+      "experience_given_on_bombed_to_neutral": 2400
+    },
+    {
+      "upgrade_price": { "credits": 1325, "metal": 695, "crystal": 575 },
+      "upgrade_duration": 185,
+      "experience_given_on_bombed_to_neutral": 2500
+    },
+    {
+      "upgrade_price": { "credits": 1350, "metal": 710, "crystal": 600 },
+      "upgrade_duration": 190,
+      "experience_given_on_bombed_to_neutral": 2600
+    },
+    {
+      "upgrade_price": { "credits": 1375, "metal": 725, "crystal": 625 },
+      "upgrade_duration": 195,
+      "experience_given_on_bombed_to_neutral": 2700
+    },
+    {
+      "upgrade_price": { "credits": 1400, "metal": 740, "crystal": 650 },
+      "upgrade_duration": 200,
+      "experience_given_on_bombed_to_neutral": 2800
+    },
+    {
+      "upgrade_price": { "credits": 1425, "metal": 755, "crystal": 675 },
+      "upgrade_duration": 205,
+      "experience_given_on_bombed_to_neutral": 2900
+    },
+    {
+      "upgrade_price": { "credits": 1450, "metal": 770, "crystal": 700 },
+      "upgrade_duration": 210,
+      "experience_given_on_bombed_to_neutral": 3000
+    }
+  ],
+  "planet_surveying_levels": [
+    {
+      "upgrade_price": { "credits": 250, "metal": 50, "crystal": 75 },
+      "upgrade_duration": 60
+    },
+    {
+      "upgrade_price": { "credits": 500, "metal": 100, "crystal": 150 },
+      "upgrade_duration": 120
+    },
+    {
+      "upgrade_price": { "credits": 1000, "metal": 200, "crystal": 300 },
+      "upgrade_duration": 180
+    },
+    {
+      "upgrade_price": { "credits": 1500, "metal": 300, "crystal": 450 },
+      "upgrade_duration": 240
+    },
+    {
+      "upgrade_price": { "credits": 2000, "metal": 400, "crystal": 600 },
+      "upgrade_duration": 300
+    }
+  ],
+  "starting_free_unit_build_kinds": ["capital_ship"],
+  "starting_units_in_formations": [
+    {
+      "required_units": [
+        { "unit": "trader_scout_corvette", "count": [2, 2] },
+        { "unit": "trader_frigate_factory_structure" },
+        { "unit": "trader_capital_ship_factory_structure" },
+        { "unit": "trader_retrofit_bay_structure" }
+      ]
+    }
+  ],
+  "fleet": "trader_fleet",
+  "fleet_name_group": "fleet",
+  "unit_build_groups": [
+    {
+      "id": "corvette",
+      "name": "unit_build_group_name.corvette",
+      "column_count": 2
+    },
+    {
+      "id": "frigate",
+      "name": "unit_build_group_name.frigate",
+      "column_count": 3
+    },
+    {
+      "id": "cruiser",
+      "name": "unit_build_group_name.cruiser",
+      "column_count": 3
+    },
+    {
+      "id": "capital_ship",
+      "name": "unit_build_group_name.capital_ship",
+      "column_count": 3
+    },
+    { "id": "titan", "name": "unit_build_group_name.titan", "column_count": 1 }
+  ],
+  "buildable_units": [
+    "trader_scout_corvette",
+    "trader_light_frigate",
+    "trader_skirmisher_corvette_frigate",
+    "trader_colony_frigate",
+    "trader_siege_frigate",
+    "trader_carrier_cruiser",
+    "trader_antifighter_frigate",
+    "trader_antiarmor_frigate",
+    "trader_robotics_cruiser",
+    "trader_long_range_cruiser",
+    "trader_heavy_cruiser",
+    "trader_torpedo_cruiser",
+    "trader_battle_capital_ship_plus",
+    "trader_colony_capital_ship_plus",
+    "trader_support_capital_ship_plus",
+    "trader_carrier_capital_ship_plus",
+    "trader_siege_capital_ship_plus",
+    "trader_loyalist_titan_plus",
+    "trader_rebel_titan_plus"
+  ],
+  "faction_buildable_units": ["trader_loyalist_titan_plus"],
+  "buildable_strikecraft": [
+    "trader_interceptor_strikecraft",
+    "trader_bomber_strikecraft"
+  ],
+  "structure_build_groups": [
+    {
+      "id": "civilian",
+      "name": "structure_build_group_name_civilian",
+      "column_count": 6,
+      "structure_slot_type": "civilian"
+    },
+    {
+      "id": "military",
+      "name": "structure_build_group_name_military",
+      "column_count": 6,
+      "structure_slot_type": "military"
+    }
+  ],
+  "structure_builder": {
+    "ship": "trader_constructor_ship",
+    "special_operation_unit_kind": "structure_builder"
+  },
+  "structures": [
+    "trader_metal_extractor_structure_plus",
+    "trader_crystal_extractor_structure_plus",
+    "trader_frigate_factory_structure",
+    "trader_capital_ship_factory_structure",
+    "trader_civilian_research_lab_structure",
+    "trader_military_research_lab_structure",
+    "trader_culture_center_structure",
+    "trader_exotic_factory_structure",
+    "trader_trade_port_structure_plus",
+    "trader_loyalist_titan_factory_structure_plus",
+    "trader_autocannon_defense_structure",
+    "trader_retrofit_bay_structure",
+    "trader_gauss_defense_structure",
+    "trader_phase_jump_inhibitor_structure",
+    "trader_hangar_defense_structure",
+    "trader_loyalist_starbase_plus"
+  ],
+  "ability_created_units": [
+    "trader_missile_battery_frigate",
+    "trader_starbase"
+  ],
+  "unit_limits": {
+    "global": [
+      { "tag": "titan", "unit_limit": 3 },
+      { "tag": "titan_trader_rebel", "unit_limit": 1 }
+    ],
+    "star": [{ "tag": "starbase", "unit_limit": 8 }],
+    "planet": [{ "tag": "starbase", "unit_limit": 2 }]
+  },
+  "research": {
+    "research_domains": {
+      "civilian": {
+        "research_tiers": [
+          {
+            "acquire_time": 30,
+            "required_research_points": 1,
+            "price": { "credits": 400, "metal": 75, "crystal": 125 },
+            "player_modifiers": {
+              "empire_modifiers": [
+                {
+                  "value_behavior": "additive",
+                  "modifier_type": "credit_income_rate",
+                  "value": 1
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_0_civil"
+          },
+          {
+            "acquire_time": 60,
+            "required_research_points": 4,
+            "price": { "credits": 800, "metal": 150, "crystal": 250 },
+            "player_modifiers": {
+              "empire_modifiers": [
+                {
+                  "value_behavior": "additive",
+                  "modifier_type": "credit_income_rate",
+                  "value": 1
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_1_civil"
+          },
+          {
+            "acquire_time": 120,
+            "required_research_points": 8,
+            "price": { "credits": 1600, "metal": 300, "crystal": 500 },
+            "player_modifiers": {
+              "empire_modifiers": [
+                {
+                  "value_behavior": "additive",
+                  "modifier_type": "credit_income_rate",
+                  "value": 2
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_2_civil"
+          },
+          {
+            "acquire_time": 180,
+            "required_research_points": 15,
+            "price": { "credits": 3200, "metal": 600, "crystal": 1000 },
+            "exotic_price": [{ "exotic_type": "utility", "count": 1 }],
+            "player_modifiers": {
+              "empire_modifiers": [
+                {
+                  "value_behavior": "additive",
+                  "modifier_type": "credit_income_rate",
+                  "value": 2
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_3_civil"
+          },
+          {
+            "acquire_time": 240,
+            "required_research_points": 25,
+            "price": { "credits": 6400, "metal": 1200, "crystal": 2000 },
+            "exotic_price": [
+              { "exotic_type": "utility", "count": 2 },
+              { "exotic_type": "economic", "count": 1 },
+              { "exotic_type": "ultimate", "count": 1 }
+            ],
+            "player_modifiers": {
+              "empire_modifiers": [
+                {
+                  "value_behavior": "additive",
+                  "modifier_type": "credit_income_rate",
+                  "value": 3
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_4_civil"
+          }
+        ],
+        "research_fields": [
+          {
+            "id": "civilian_industry",
+            "name": "trader_research_field_name_civilian_industry",
+            "picture": "trader_research_field_picture_civilian_industry"
+          },
+          {
+            "id": "civilian_annexation",
+            "name": "trader_research_field_name_civilian_annexation",
+            "picture": "trader_research_field_picture_civilian_annexation"
+          },
+          {
+            "id": "civilian_policy",
+            "name": "trader_research_field_name_civilian_policy",
+            "picture": "trader_research_field_picture_civilian_policy"
+          },
+          {
+            "id": "trader_civilian_1",
+            "name": "trader_research_domain_partial_name_civilian_uppercase",
+            "picture": "trader_research_field_picture_civilian_industry"
+          }
+        ],
+        "full_name": "trader_research_domain_full_name_civilian",
+        "partial_name": "trader_research_domain_partial_name_civilian",
+        "partial_name_uppercase": "trader_research_domain_partial_name_civilian_uppercase",
+        "research_points_name": "trader_research_domain_research_points_name_civilian",
+        "research_rate_name": "trader_research_domain_research_rate_name_civilian",
+        "button_background": "trader_research_domain_button_background_civilian",
+        "compressed_research_field_picture": "trader_research_field_picture_civilian_compressed",
+        "hud_icon": "research_civil_icon"
+      },
+      "military": {
+        "research_tiers": [
+          {
+            "acquire_time": 30,
+            "required_research_points": 1,
+            "price": { "credits": 400, "metal": 75, "crystal": 125 },
+            "player_modifiers": {
+              "unit_modifiers": [
+                {
+                  "modifier_type": "max_armor_points",
+                  "value_behavior": "scalar",
+                  "value": 0.05
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_0_military"
+          },
+          {
+            "acquire_time": 60,
+            "required_research_points": 4,
+            "price": { "credits": 800, "metal": 150, "crystal": 250 },
+            "player_modifiers": {
+              "unit_modifiers": [
+                {
+                  "modifier_type": "hull_crippled_percentage",
+                  "value_behavior": "additive",
+                  "value": 0.1
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_1_military"
+          },
+          {
+            "acquire_time": 120,
+            "required_research_points": 8,
+            "price": { "credits": 1600, "metal": 300, "crystal": 500 },
+            "player_modifiers": {
+              "unit_modifiers": [
+                {
+                  "modifier_type": "max_armor_points",
+                  "value_behavior": "scalar",
+                  "value": 0.05
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_2_military"
+          },
+          {
+            "acquire_time": 180,
+            "required_research_points": 15,
+            "price": { "credits": 3200, "metal": 600, "crystal": 1000 },
+            "exotic_price": [{ "exotic_type": "defense", "count": 1 }],
+            "player_modifiers": {
+              "unit_modifiers": [
+                {
+                  "modifier_type": "hull_crippled_percentage",
+                  "value_behavior": "additive",
+                  "value": 0.1
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_3_military"
+          },
+          {
+            "acquire_time": 240,
+            "required_research_points": 25,
+            "price": { "credits": 6400, "metal": 1200, "crystal": 2000 },
+            "exotic_price": [
+              { "exotic_type": "defense", "count": 2 },
+              { "exotic_type": "offense", "count": 1 },
+              { "exotic_type": "ultimate", "count": 1 }
+            ],
+            "player_modifiers": {
+              "unit_modifiers": [
+                {
+                  "modifier_type": "max_armor_points",
+                  "value_behavior": "scalar",
+                  "value": 0.05
+                }
+              ]
+            },
+            "button_background": "trader_research_tier_button_background_4_military"
+          }
+        ],
+        "research_fields": [
+          {
+            "id": "military_mobilization",
+            "name": "trader_research_field_name_military_mobilization",
+            "picture": "trader_research_field_picture_military_mobilization"
+          },
+          {
+            "id": "military_experimental",
+            "name": "trader_research_field_name_military_experimental",
+            "picture": "trader_research_field_picture_military_experimental"
+          },
+          {
+            "id": "military_armament",
+            "name": "trader_research_field_name_military_armament",
+            "picture": "trader_research_field_picture_military_armament"
+          },
+          {
+            "id": "military_engineering",
+            "name": "trader_research_field_name_military_engineering",
+            "picture": "trader_research_field_picture_military_engineering"
+          },
+          {
+            "id": "trader_military_1",
+            "name": "trader_research_domain_partial_name_military_uppercase",
+            "picture": "trader_research_field_picture_military_mobilization"
+          }
+        ],
+        "full_name": "trader_research_domain_full_name_military",
+        "partial_name": "trader_research_domain_partial_name_military",
+        "partial_name_uppercase": "trader_research_domain_partial_name_military_uppercase",
+        "research_points_name": "trader_research_domain_research_points_name_military",
+        "research_rate_name": "trader_research_domain_research_rate_name_military",
+        "button_background": "trader_research_domain_button_background_military",
+        "compressed_research_field_picture": "trader_research_field_picture_military_compressed",
+        "hud_icon": "research_military_icon"
+      }
+    },
+    "research_subjects": [
+      "trader_antimatter_0",
+      "trader_antimatter_1",
+      "trader_asteroid_planet_credit_rate",
+      "trader_autocannon_weapon_damage_0",
+      "trader_autocannon_weapon_damage_1",
+      "trader_autocannon_weapon_damage_2",
+      "trader_autocannon_weapon_damage_3",
+      "trader_beam_weapon_damage_0",
+      "trader_beam_weapon_damage_1",
+      "trader_capital_ship_starting_level_0",
+      "trader_capital_ship_starting_level_1",
+      "trader_commerce_culture",
+      "trader_commercial_district_credit_rate",
+      "trader_corvette_speed",
+      "trader_counter_deployment",
+      "trader_culture_rate_0",
+      "trader_culture_rate_1",
+      "trader_defense_structure_culture_resistance",
+      "trader_desert_planet_credit_rate",
+      "trader_find_npc_explore",
+      "trader_fortification_specialist",
+      "trader_garrison_max_supply",
+      "trader_heavy_fallout",
+      "trader_heavy_maneuvering_thrusters",
+      "trader_hull_damage_reduction_0",
+      "trader_hull_damage_reduction_1",
+      "trader_hull_damage_reduction_2",
+      "trader_improve_culture_propagation",
+      "trader_improve_gauss_defense_cooldown",
+      "trader_improve_gauss_defense_range",
+      "trader_labor_negotiations",
+      "trader_loyalist_garrison_max_supply",
+      "trader_max_hull_points_0",
+      "trader_max_hull_points_1",
+      "trader_max_hull_points_2",
+      "trader_max_supply_0",
+      "trader_max_supply_1",
+      "trader_max_supply_2",
+      "trader_max_supply_3",
+      "trader_max_supply_4",
+      "trader_mining_track_crystal_rate_0",
+      "trader_mining_track_crystal_rate_1",
+      "trader_mining_track_metal_rate_0",
+      "trader_mining_track_metal_rate_1",
+      "trader_missile_weapon_damage_0",
+      "trader_missile_weapon_damage_1",
+      "trader_missile_weapon_damage_2",
+      "trader_missile_weapon_range",
+      "trader_npc_market_discounts",
+      "trader_orbital_extraction_crystal_rate_0",
+      "trader_orbital_extraction_crystal_rate_1",
+      "trader_orbital_extraction_metal_rate_0",
+      "trader_orbital_extraction_metal_rate_1",
+      "trader_pervasive_economy",
+      "trader_planet_bombing_damage_0",
+      "trader_planet_civilian_slots",
+      "trader_planet_health_restore_rate",
+      "trader_planet_track_upgrade_rate",
+      "trader_quick_phase_jump",
+      "trader_retrofit_bay_repair_rate_0",
+      "trader_scout_corvette_hyperspace_charge_time",
+      "trader_shields_0",
+      "trader_shields_1",
+      "trader_shields_corvette",
+      "trader_shields_cruiser",
+      "trader_shields_frigate",
+      "trader_starbase_item_price",
+      "trader_structure_build_rate",
+      "trader_structure_hull",
+      "trader_structure_price_decrease",
+      "trader_terran_planet_credit_rate",
+      "trader_trade_port_culture",
+      "trader_trade_port_income_rate_0",
+      "trader_trade_port_income_rate_1",
+      "trader_twin_fortresses_0_plus",
+      "trader_unit_factory_build_rate",
+      "trader_unlock_alloy_foundry_unit_item",
+      "trader_unlock_antiarmor_frigate",
+      "trader_unlock_antifighter_frigate",
+      "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+      "trader_unlock_antimatter_engine_unit_item",
+      "trader_unlock_backup_shield_generator_unit_item",
+      "trader_unlock_build_ultimate_exotic",
+      "trader_unlock_carrier_cruiser",
+      "trader_unlock_chemical_plant_unit_item",
+      "trader_unlock_combat_repair_system_unit_item",
+      "trader_unlock_command_bunker_unit_item",
+      "trader_unlock_commercial_district_unit_item",
+      "trader_unlock_crystal_synthesizer_unit_item",
+      "trader_unlock_crystalline_biosphere",
+      "trader_unlock_culture_center",
+      "trader_unlock_culture_planet_credit_income_rate_bonus",
+      "trader_unlock_culture_ship_max_linear_speed_bonus",
+      "trader_unlock_culture_unit_factory_production_penalty",
+      "trader_unlock_deploy_starbase_unit_item",
+      "trader_unlock_desert_biosphere",
+      "trader_unlock_exotic_factory_structure",
+      "trader_unlock_ferric_mining_rig_unit_item",
+      "trader_unlock_ferrous_biosphere",
+      "trader_unlock_flak_burst_unit_item",
+      "trader_unlock_fulfilment_warehouse_unit_item",
+      "trader_unlock_garrison_recruitment_center",
+      "trader_unlock_gas_crystalizer_unit_item",
+      "trader_unlock_gas_giant_biosphere",
+      "trader_unlock_gas_harvester_unit_item",
+      "trader_unlock_hangar_defense_point_defense_autocannon_weapon",
+      "trader_unlock_hangar_defense_structure",
+      "trader_unlock_harvesting_crawler_unit_item",
+      "trader_unlock_heavy_cruiser",
+      "trader_unlock_heavy_garrison",
+      "trader_unlock_heavy_gauss_slugs_unit_item",
+      "trader_unlock_high_yield_warheads_unit_item",
+      "trader_unlock_home_guard_outpost_unit_item",
+      "trader_unlock_hyperspace_between_stars",
+      "trader_unlock_ice_biosphere",
+      "trader_unlock_ice_processor_unit_item",
+      "trader_unlock_industrial_complex_unit_item",
+      "trader_unlock_long_range_cruiser",
+      "trader_unlock_media_conglomerate_unit_item",
+      "trader_unlock_metal_smelting_plant_unit_item",
+      "trader_unlock_missile_armor_unit_item",
+      "trader_unlock_missile_guidance_computer_unit_item",
+      "trader_unlock_munitions_plant_unit_item",
+      "trader_unlock_oceanic_biosphere",
+      "trader_unlock_oceanic_domes_unit_item",
+      "trader_unlock_phase_jump_inhibitor",
+      "trader_unlock_phase_lane_detector",
+      "trader_unlock_phase_lane_detector_extended_range",
+      "trader_unlock_rapid_autoloader_unit_item",
+      "trader_unlock_regional_government_unit_item",
+      "trader_unlock_remote_drone_refinery_unit_item",
+      "trader_unlock_reserve_squadron_hangar_unit_item",
+      "trader_unlock_resource_extractor_structures",
+      "trader_unlock_retrofit_bay_repair_ability",
+      "trader_unlock_robotics_cruiser",
+      "trader_unlock_robotics_cruiser_antimatter_droids_ability",
+      "trader_unlock_siege_frigate",
+      "trader_unlock_skirmisher_corvette_frigate",
+      "trader_unlock_starbase",
+      "trader_unlock_starbase_docking_booms_unit_item",
+      "trader_unlock_starbase_improve_weapon_item",
+      "trader_unlock_starbase_planetary_shield_array_unit_item",
+      "trader_unlock_starbase_self_destruct_unit_item",
+      "trader_unlock_starbase_structural_integrity_2_unit_item",
+      "trader_unlock_starbase_trade_port_unit_item",
+      "trader_unlock_starbase_unit_factory_unit_item",
+      "trader_unlock_starbase_unlock_beam_weapon_unit_item",
+      "trader_unlock_starbase_unlock_torpedo_weapon_unit_item",
+      "trader_unlock_swamp_biosphere",
+      "trader_unlock_targeting_array_unit_item",
+      "trader_unlock_torpedo_cruiser",
+      "trader_unlock_trade_escorts_0",
+      "trader_unlock_trade_escorts_1",
+      "trader_unlock_trade_port",
+      "trader_unlock_trade_ship_detection",
+      "trader_unlock_volatile_accelerants_unit_item",
+      "trader_unlock_volcanic_biosphere",
+      "trader_unlock_war_reporter_unit_item",
+      "trader_unstoppable_phase_jump",
+      "trader_upgrade_backup_shield_generator_unit_item",
+      "trader_upgrade_command_bunker_unit_item",
+      "trader_upgrade_crystalline_biosphere",
+      "trader_upgrade_culture_ship_max_linear_speed_bonus",
+      "trader_upgrade_desert_biosphere",
+      "trader_upgrade_experience_gain_0",
+      "trader_upgrade_experience_gain_1",
+      "trader_upgrade_ferrous_biosphere",
+      "trader_upgrade_ice_biosphere",
+      "trader_upgrade_ice_biosphere_credit_rate",
+      "trader_upgrade_influence_0",
+      "trader_upgrade_influence_1",
+      "trader_upgrade_influence_2",
+      "trader_upgrade_influence_rate",
+      "trader_upgrade_loot_experience_gain",
+      "trader_upgrade_oceanic_biosphere",
+      "trader_upgrade_oceanic_domes_unit_item_0",
+      "trader_upgrade_oceanic_domes_unit_item_1",
+      "trader_upgrade_radiation_bomb_unit_item",
+      "trader_upgrade_rapid_autoloader_unit_item",
+      "trader_upgrade_regional_government_office_unit_item",
+      "trader_upgrade_swamp_biosphere",
+      "trader_upgrade_volcanic_biosphere",
+      "trader_war_measures_act",
+      "trader_wormhole_travel",
+      "trader_unlock_loyalist_titan_plus",
+      "trader_unlock_rebel_titan_plus",
+      "trader_unlock_rebel_titan_rail_gun_weapon_unit_item_plus",
+      "trader_civilian_0_plus",
+      "trader_npc_market_discounts_plus",
+      "trader_planet_civilian_slots_plus",
+      "trader_mining_track_metal_rate_0_plus",
+      "trader_mining_track_metal_rate_1_plus",
+      "trader_orbital_extraction_metal_rate_0_plus",
+      "trader_orbital_extraction_metal_rate_1_plus",
+      "trader_mining_track_crystal_rate_0_plus",
+      "trader_mining_track_crystal_rate_1_plus",
+      "trader_orbital_extraction_crystal_rate_0_plus",
+      "trader_orbital_extraction_crystal_rate_1_plus",
+      "trader_unlock_culture_unit_factory_production_penalty_plus",
+      "trader_unlock_culture_planet_credit_income_rate_bonus_plus",
+      "trader_unlock_culture_ship_max_linear_speed_bonus_plus",
+      "trader_upgrade_culture_ship_max_linear_speed_bonus_plus",
+      "trader_unlock_media_conglomerate_unit_item_plus",
+      "trader_culture_rate_0_plus",
+      "trader_culture_rate_1_plus",
+      "trader_trade_port_income_rate_0_plus",
+      "trader_trade_port_income_rate_1_plus",
+      "trader_asteroid_planet_credit_rate_plus",
+      "trader_war_measures_act_plus",
+      "trader_pervasive_economy_plus",
+      "trader_unlock_industrial_complex_unit_item_plus",
+      "trader_upgrade_regional_government_office_unit_item_plus",
+      "trader_upgrade_command_bunker_unit_item_plus",
+      "trader_commercial_district_credit_rate_plus",
+      "trader_structure_price_decrease_plus",
+      "trader_structure_build_rate_plus",
+      "trader_labor_negotiations_plus",
+      "trader_unit_factory_build_rate_plus",
+      "trader_military_0_plus",
+      "trader_loyalist_titan_supply",
+      "trader_max_supply_0_plus",
+      "trader_max_supply_1_plus",
+      "trader_base_defense_0_plus",
+      "trader_base_defense_1_plus",
+      "trader_base_defense_2_plus",
+      "trader_capital_ship_starting_level_0_plus",
+      "trader_capital_ship_starting_level_1_plus",
+      "trader_upgrade_experience_gain_0_plus",
+      "trader_upgrade_experience_gain_1_plus",
+      "trader_unlock_heavy_garrison_plus",
+      "trader_twin_fortresses_1_plus",
+      "trader_autocannon_weapon_damage_0_plus",
+      "trader_autocannon_weapon_damage_1_plus",
+      "trader_autocannon_weapon_damage_2_plus",
+      "trader_autocannon_weapon_damage_3_plus",
+      "trader_missile_weapon_range_plus",
+      "trader_missile_weapon_damage_0_plus",
+      "trader_missile_weapon_damage_1_plus",
+      "trader_missile_weapon_damage_2_plus",
+      "trader_improve_gauss_defense_cooldown_plus",
+      "trader_improve_gauss_defense_range_plus",
+      "trader_beam_weapon_damage_0_plus",
+      "trader_beam_weapon_damage_1_plus",
+      "trader_hull_damage_reduction_0_plus",
+      "trader_hull_damage_reduction_1_plus",
+      "trader_hull_damage_reduction_2_plus",
+      "trader_max_hull_points_0_plus",
+      "trader_max_hull_points_1_plus",
+      "trader_max_hull_points_2_plus",
+      "trader_antimatter_0_plus",
+      "trader_antimatter_1_plus",
+      "trader_shields_0_plus",
+      "trader_shields_1_plus"
+    ],
+    "faction_research_subjects": [
+      "trader_unlock_garrison_recruitment_center",
+      "trader_garrison_max_supply",
+      "trader_unlock_heavy_garrison",
+      "trader_loyalist_garrison_max_supply",
+      "trader_fortification_specialist",
+      "trader_starbase_item_price",
+      "trader_twin_fortresses_0_plus",
+      "trader_structure_hull",
+      "trader_war_measures_act",
+      "trader_counter_deployment",
+      "trader_unlock_home_guard_outpost_unit_item"
+    ]
+  },
+  "missing_ship_component_shop_build_time_scalar": 10,
+  "ship_components": [
+    "trader_missile_armor",
+    "trader_capital_ship_insurance",
+    "trader_salvage_kit",
+    "trader_radiation_bomb",
+    "trader_flak_burst",
+    "trader_reserve_squadron_hangar",
+    "trader_antimatter_engine",
+    "trader_combat_repair_system",
+    "trader_backup_shield_generator",
+    "trader_targeting_array",
+    "trader_rapid_autoloader",
+    "trader_missile_guidance_computer",
+    "trader_heavy_gauss_slugs",
+    "trader_high_yield_warheads",
+    "trader_starbase_hangar_0",
+    "trader_starbase_hangar_1",
+    "trader_starbase_hangar_2",
+    "trader_starbase_structural_integrity_0",
+    "trader_starbase_structural_integrity_1",
+    "trader_starbase_structural_integrity_2",
+    "trader_starbase_additional_shield_generator",
+    "trader_starbase_docking_booms",
+    "trader_starbase_trade_port",
+    "trader_starbase_unit_factory",
+    "trader_starbase_self_destruct",
+    "trader_starbase_planetary_shield_array",
+    "trader_starbase_unlock_beam_weapon",
+    "trader_starbase_unlock_torpedo_weapon",
+    "trader_loyalist_titan_hangar_plus",
+    "trader_loyalist_titan_hull_plating_0_plus",
+    "trader_loyalist_titan_hull_plating_1_plus",
+    "trader_loyalist_titan_hull_plating_2_plus",
+    "trader_loyalist_titan_planetary_shield_array_plus",
+    "trader_loyalist_titan_unlock_beam_weapon_plus",
+    "trader_loyalist_titan_unlock_missile_weapon_plus",
+    "trader_deploy_starbase",
+    "trader_volatile_accelerants",
+    "trader_war_reporter",
+    "trader_rebel_titan_hangar_plus",
+    "trader_rebel_titan_hull_plating_0_plus",
+    "trader_rebel_titan_hull_plating_1_plus",
+    "trader_rebel_titan_unlock_missile_weapon_plus",
+    "trader_rebel_titan_unlock_rail_gun_weapon_plus"
+  ],
+  "ship_component_build_groups": [
+    {
+      "id": "offense",
+      "name": "ship_component_build_group_name_offense",
+      "column_count": 5
+    },
+    {
+      "id": "defense",
+      "name": "ship_component_build_group_name_defense",
+      "column_count": 4
+    },
+    {
+      "id": "utility",
+      "name": "ship_component_build_group_name_utility",
+      "column_count": 5
+    }
+  ],
+  "planet_components": [
+    "trader_alloy_foundry",
+    "trader_asteroid_civilian_research_lab",
+    "trader_asteroid_military_research_lab",
+    "trader_chemical_plant",
+    "trader_crystal_synthesizer",
+    "trader_gas_harvester",
+    "trader_gas_crystalizer",
+    "trader_harvesting_crawler",
+    "trader_metal_smelting_plant",
+    "trader_ice_processor",
+    "trader_remote_drone_refinery",
+    "trader_surface_civilian_research_lab",
+    "trader_surface_military_research_lab",
+    "trader_commercial_district_plus",
+    "trader_ferric_mining_rig",
+    "trader_fulfilment_warehouse",
+    "trader_oceanic_domes",
+    "trader_media_conglomerate_plus",
+    "trader_regional_government_office_plus",
+    "trader_command_bunker_plus",
+    "trader_munitions_plant",
+    "trader_industrial_complex_plus",
+    "trader_loyalist_garrison_recruitment_center_plus",
+    "trader_loyalist_home_guard_outpost"
+  ],
+  "planet_component_build_groups": [
+    {
+      "id": "economy",
+      "name": "planet_component_build_group_name_economy",
+      "column_count": 5
+    },
+    {
+      "id": "defense",
+      "name": "planet_component_build_group_name_defense",
+      "column_count": 4
+    },
+    {
+      "id": "utility",
+      "name": "planet_component_build_group_name_utility",
+      "column_count": 4
+    }
+  ],
+  "first_capital_ship_item": "trader_capital_ship_insurance",
+  "planet_types": [
+    {
+      "planet_type": "asteroid",
+      "can_ever_be_colonized": true,
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1000,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 2000,
+            "health_points_restore_rate": 4
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 2,
+            "max_health_points": 200
+          }
+        ],
+        "commerce": [
+          {},
+          { "credits_income_rate": 1.2, "max_health_points": 100 }
+        ],
+        "mining": [
+          {},
+          {
+            "metal_income_rate": 0.36,
+            "crystal_income_rate": 0.24,
+            "max_health_points": 100
+          },
+          {
+            "metal_income_rate": 0.84,
+            "crystal_income_rate": 0.56,
+            "max_health_points": 200
+          }
+        ],
+        "research": [{}]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        {
+          "import_points": 1,
+          "export_points": { "credits": 1, "metal": 1, "crystal": 1 }
+        }
+      ]
+    },
+    {
+      "planet_type": "crystalline",
+      "can_ever_be_colonized": true,
+      "colonization_research_prerequisites": [
+        ["trader_unlock_crystalline_biosphere"]
+      ],
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1500,
+            "health_points_restore_rate": 2
+          },
+          {
+            "prerequisites": [["trader_upgrade_crystalline_biosphere"]],
+            "max_military_structure_slots": 10,
+            "max_health_points": 3000,
+            "health_points_restore_rate": 4
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 4,
+            "max_health_points": 300
+          },
+          {
+            "prerequisites": [["trader_upgrade_crystalline_biosphere"]],
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 14,
+            "structure_builder_count": 4,
+            "max_health_points": 400
+          }
+        ],
+        "commerce": [
+          {},
+          {
+            "prerequisites": [["trader_upgrade_crystalline_biosphere"]],
+            "credits_income_rate": 1.8,
+            "max_health_points": 100
+          }
+        ],
+        "mining": [
+          {},
+          { "crystal_income_rate": 0.32, "max_health_points": 100 },
+          { "crystal_income_rate": 0.8, "max_health_points": 200 },
+          { "crystal_income_rate": 1.44, "max_health_points": 300 },
+          { "crystal_income_rate": 2.24, "max_health_points": 400 },
+          {
+            "prerequisites": [["trader_upgrade_crystalline_biosphere"]],
+            "crystal_income_rate": 3.2,
+            "max_health_points": 500
+          }
+        ],
+        "research": [
+          {},
+          {
+            "civilian_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "military_research_rate_scalar": 0.05
+          },
+          {
+            "civilian_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "military_research_rate_scalar": 0.15
+          },
+          {
+            "civilian_research_rate_scalar": 0.3,
+            "max_health_points": 300,
+            "military_research_rate_scalar": 0.3
+          },
+          {
+            "prerequisites": [["trader_upgrade_crystalline_biosphere"]],
+            "civilian_research_rate_scalar": 0.5,
+            "max_health_points": 400,
+            "military_research_rate_scalar": 0.5
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        { "import_points": 1, "export_points": { "credits": 1, "crystal": 2 } },
+        { "import_points": 2, "export_points": { "credits": 2, "crystal": 2 } },
+        { "import_points": 3, "export_points": { "credits": 3, "crystal": 2 } }
+      ]
+    },
+    {
+      "planet_type": "desert",
+      "can_ever_be_colonized": true,
+      "colonization_research_prerequisites": [
+        ["trader_unlock_desert_biosphere"]
+      ],
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1500,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 3000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "max_military_structure_slots": 20,
+            "max_health_points": 5000,
+            "health_points_restore_rate": 8
+          },
+          {
+            "prerequisites": [["trader_upgrade_desert_biosphere"]],
+            "max_military_structure_slots": 30,
+            "max_health_points": 7500,
+            "health_points_restore_rate": 15
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 4,
+            "max_health_points": 300
+          },
+          {
+            "prerequisites": [["trader_upgrade_desert_biosphere"]],
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 14,
+            "structure_builder_count": 4,
+            "max_health_points": 400
+          }
+        ],
+        "commerce": [
+          {},
+          { "credits_income_rate": 1.8, "max_health_points": 100 },
+          { "credits_income_rate": 4.2, "max_health_points": 200 },
+          {
+            "prerequisites": [["trader_upgrade_desert_biosphere"]],
+            "credits_income_rate": 7.2,
+            "max_health_points": 300
+          }
+        ],
+        "mining": [
+          {},
+          {
+            "metal_income_rate": 0.36,
+            "crystal_income_rate": 0.24,
+            "max_health_points": 100
+          },
+          {
+            "metal_income_rate": 0.84,
+            "crystal_income_rate": 0.56,
+            "max_health_points": 200
+          },
+          {
+            "metal_income_rate": 1.44,
+            "crystal_income_rate": 0.96,
+            "max_health_points": 300
+          },
+          {
+            "prerequisites": [["trader_upgrade_desert_biosphere"]],
+            "metal_income_rate": 2.16,
+            "crystal_income_rate": 1.44,
+            "max_health_points": 400
+          }
+        ],
+        "research": [
+          {},
+          {
+            "military_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "civilian_research_rate_scalar": 0.05
+          },
+          {
+            "military_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "civilian_research_rate_scalar": 0.15
+          },
+          {
+            "prerequisites": [["trader_upgrade_desert_biosphere"]],
+            "military_research_rate_scalar": 0.3,
+            "max_health_points": 300,
+            "civilian_research_rate_scalar": 0.3
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        {
+          "import_points": 1,
+          "export_points": { "credits": 1, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 2,
+          "export_points": { "credits": 2, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 3,
+          "export_points": { "credits": 3, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 4,
+          "export_points": { "credits": 4, "metal": 1, "crystal": 1 }
+        }
+      ]
+    },
+    {
+      "planet_type": "ferrous",
+      "can_ever_be_colonized": true,
+      "colonization_research_prerequisites": [
+        ["trader_unlock_ferrous_biosphere"]
+      ],
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1500,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 3000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "max_military_structure_slots": 20,
+            "max_health_points": 5000,
+            "health_points_restore_rate": 8
+          },
+          {
+            "prerequisites": [["trader_upgrade_ferrous_biosphere"]],
+            "max_military_structure_slots": 30,
+            "max_health_points": 7500,
+            "health_points_restore_rate": 15
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 3,
+            "max_health_points": 300
+          }
+        ],
+        "commerce": [
+          {},
+          { "credits_income_rate": 1.8, "max_health_points": 100 },
+          {
+            "prerequisites": [["trader_upgrade_ferrous_biosphere"]],
+            "credits_income_rate": 4.2,
+            "max_health_points": 200
+          }
+        ],
+        "mining": [
+          { "metal_income_rate": 0 },
+          { "metal_income_rate": 0.48, "max_health_points": 100 },
+          { "metal_income_rate": 1.2, "max_health_points": 200 },
+          { "metal_income_rate": 2.16, "max_health_points": 300 },
+          { "metal_income_rate": 3.36, "max_health_points": 400 },
+          {
+            "prerequisites": [["trader_upgrade_ferrous_biosphere"]],
+            "metal_income_rate": 4.8,
+            "max_health_points": 500
+          }
+        ],
+        "research": [
+          {},
+          {
+            "military_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "civilian_research_rate_scalar": 0.05
+          },
+          {
+            "military_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "civilian_research_rate_scalar": 0.15
+          },
+          {
+            "prerequisites": [["trader_upgrade_ferrous_biosphere"]],
+            "military_research_rate_scalar": 0.3,
+            "max_health_points": 300,
+            "civilian_research_rate_scalar": 0.3
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        { "import_points": 1, "export_points": { "credits": 1, "metal": 2 } },
+        { "import_points": 2, "export_points": { "credits": 2, "metal": 2 } },
+        { "import_points": 3, "export_points": { "credits": 3, "metal": 2 } }
+      ]
+    },
+    {
+      "planet_type": "gas_giant",
+      "can_ever_be_colonized": true,
+      "colonization_research_prerequisites": [
+        ["trader_unlock_gas_giant_biosphere"]
+      ],
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1000,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 2000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "max_military_structure_slots": 20,
+            "max_health_points": 3500,
+            "health_points_restore_rate": 8
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 6,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 6,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 6,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "max_planet_component_slots": 6,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 4,
+            "max_health_points": 300
+          },
+          {
+            "max_planet_component_slots": 6,
+            "max_civilian_structure_slots": 14,
+            "structure_builder_count": 5,
+            "max_health_points": 400
+          },
+          {
+            "max_planet_component_slots": 6,
+            "max_civilian_structure_slots": 20,
+            "structure_builder_count": 5,
+            "max_health_points": 500
+          }
+        ],
+        "commerce": [{}],
+        "mining": [{}],
+        "research": [
+          {},
+          {
+            "civilian_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "military_research_rate_scalar": 0.05
+          },
+          {
+            "civilian_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "military_research_rate_scalar": 0.15
+          },
+          {
+            "civilian_research_rate_scalar": 0.3,
+            "max_health_points": 300,
+            "military_research_rate_scalar": 0.3
+          },
+          {
+            "civilian_research_rate_scalar": 0.5,
+            "max_health_points": 400,
+            "military_research_rate_scalar": 0.5
+          },
+          {
+            "civilian_research_rate_scalar": 0.75,
+            "max_health_points": 500,
+            "military_research_rate_scalar": 0.75
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        {
+          "import_points": 1,
+          "export_points": { "credits": 1, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 2,
+          "export_points": { "credits": 2, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 3,
+          "export_points": { "credits": 3, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 4,
+          "export_points": { "credits": 4, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 5,
+          "export_points": { "credits": 5, "metal": 1, "crystal": 1 }
+        }
+      ]
+    },
+    {
+      "planet_type": "ice",
+      "can_ever_be_colonized": true,
+      "colonization_research_prerequisites": [["trader_unlock_ice_biosphere"]],
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1500,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 3000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "max_military_structure_slots": 20,
+            "max_health_points": 5000,
+            "health_points_restore_rate": 8
+          },
+          {
+            "prerequisites": [["trader_upgrade_ice_biosphere"]],
+            "max_military_structure_slots": 30,
+            "max_health_points": 7500,
+            "health_points_restore_rate": 15
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "prerequisites": [["trader_upgrade_ice_biosphere"]],
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 3,
+            "max_health_points": 300
+          }
+        ],
+        "commerce": [
+          {},
+          { "credits_income_rate": 1.8, "max_health_points": 100 },
+          { "credits_income_rate": 4.2, "max_health_points": 200 },
+          {
+            "prerequisites": [["trader_upgrade_ice_biosphere"]],
+            "credits_income_rate": 7.2,
+            "max_health_points": 300
+          }
+        ],
+        "mining": [
+          {},
+          { "crystal_income_rate": 0.32, "max_health_points": 100 },
+          { "crystal_income_rate": 0.8, "max_health_points": 200 },
+          {
+            "prerequisites": [["trader_upgrade_ice_biosphere"]],
+            "crystal_income_rate": 1.44,
+            "max_health_points": 300
+          }
+        ],
+        "research": [
+          {},
+          {
+            "civilian_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "military_research_rate_scalar": 0.05
+          },
+          {
+            "prerequisites": [["trader_upgrade_ice_biosphere"]],
+            "civilian_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "military_research_rate_scalar": 0.15
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        { "import_points": 1, "export_points": { "credits": 1, "crystal": 2 } },
+        { "import_points": 2, "export_points": { "credits": 2, "crystal": 2 } },
+        { "import_points": 3, "export_points": { "credits": 3, "crystal": 2 } }
+      ]
+    },
+    {
+      "planet_type": "moon",
+      "can_ever_be_colonized": true,
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1000,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 2000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "max_military_structure_slots": 20,
+            "max_health_points": 3500,
+            "health_points_restore_rate": 8
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 2,
+            "max_health_points": 200
+          }
+        ],
+        "commerce": [
+          {},
+          { "credits_income_rate": 1.2, "max_health_points": 100 },
+          { "credits_income_rate": 2.7, "max_health_points": 200 }
+        ],
+        "mining": [
+          {},
+          {
+            "metal_income_rate": 0.36,
+            "crystal_income_rate": 0.24,
+            "max_health_points": 100
+          },
+          {
+            "metal_income_rate": 0.84,
+            "crystal_income_rate": 0.56,
+            "max_health_points": 200
+          },
+          {
+            "metal_income_rate": 1.44,
+            "crystal_income_rate": 0.96,
+            "max_health_points": 300
+          }
+        ],
+        "research": [{}]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        {
+          "import_points": 1,
+          "export_points": { "credits": 1, "metal": 1, "crystal": 1 }
+        }
+      ]
+    },
+    {
+      "planet_type": "oceanic",
+      "can_ever_be_colonized": true,
+      "colonization_research_prerequisites": [
+        ["trader_unlock_oceanic_biosphere"]
+      ],
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1500,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 3000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "prerequisites": [["trader_upgrade_oceanic_biosphere"]],
+            "max_military_structure_slots": 20,
+            "max_health_points": 5000,
+            "health_points_restore_rate": 8
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 4,
+            "max_health_points": 300
+          },
+          {
+            "prerequisites": [["trader_upgrade_oceanic_biosphere"]],
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 14,
+            "structure_builder_count": 4,
+            "max_health_points": 400
+          }
+        ],
+        "commerce": [
+          {},
+          { "credits_income_rate": 1.8, "max_health_points": 100 },
+          { "credits_income_rate": 4.2, "max_health_points": 200 },
+          { "credits_income_rate": 7.2, "max_health_points": 300 },
+          {
+            "prerequisites": [["trader_upgrade_oceanic_biosphere"]],
+            "credits_income_rate": 10.8,
+            "max_health_points": 400
+          }
+        ],
+        "mining": [
+          {},
+          {
+            "metal_income_rate": 0.36,
+            "crystal_income_rate": 0.24,
+            "max_health_points": 100
+          },
+          {
+            "prerequisites": [["trader_upgrade_oceanic_biosphere"]],
+            "metal_income_rate": 0.84,
+            "crystal_income_rate": 0.56,
+            "max_health_points": 200
+          }
+        ],
+        "research": [
+          {},
+          {
+            "civilian_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "military_research_rate_scalar": 0.05
+          },
+          {
+            "civilian_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "military_research_rate_scalar": 0.15
+          },
+          {
+            "civilian_research_rate_scalar": 0.3,
+            "max_health_points": 300,
+            "military_research_rate_scalar": 0.3
+          },
+          {
+            "civilian_research_rate_scalar": 0.5,
+            "max_health_points": 400,
+            "military_research_rate_scalar": 0.5
+          },
+          {
+            "prerequisites": [["trader_upgrade_oceanic_biosphere"]],
+            "civilian_research_rate_scalar": 0.75,
+            "max_health_points": 500,
+            "military_research_rate_scalar": 0.75
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        {
+          "import_points": 1,
+          "export_points": { "credits": 1, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 2,
+          "export_points": { "credits": 2, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 3,
+          "export_points": { "credits": 3, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 4,
+          "export_points": { "credits": 4, "metal": 1, "crystal": 1 }
+        }
+      ]
+    },
+    {
+      "planet_type": "swamp",
+      "can_ever_be_colonized": true,
+      "colonization_research_prerequisites": [
+        ["trader_unlock_swamp_biosphere"]
+      ],
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1500,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 3000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "prerequisites": [["trader_upgrade_swamp_biosphere"]],
+            "max_military_structure_slots": 20,
+            "max_health_points": 5000,
+            "health_points_restore_rate": 8
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "prerequisites": [["trader_upgrade_swamp_biosphere"]],
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 3,
+            "max_health_points": 300
+          }
+        ],
+        "commerce": [
+          {},
+          { "credits_income_rate": 1.8, "max_health_points": 100 },
+          { "credits_income_rate": 4.2, "max_health_points": 200 },
+          { "credits_income_rate": 7.2, "max_health_points": 300 },
+          {
+            "prerequisites": [["trader_upgrade_swamp_biosphere"]],
+            "credits_income_rate": 10.8,
+            "max_health_points": 400
+          }
+        ],
+        "mining": [
+          {},
+          {
+            "metal_income_rate": 0.36,
+            "crystal_income_rate": 0.24,
+            "max_health_points": 100
+          },
+          {
+            "prerequisites": [["trader_upgrade_swamp_biosphere"]],
+            "metal_income_rate": 0.84,
+            "crystal_income_rate": 0.56,
+            "max_health_points": 200
+          }
+        ],
+        "research": [
+          {},
+          {
+            "civilian_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "military_research_rate_scalar": 0.05
+          },
+          {
+            "civilian_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "military_research_rate_scalar": 0.15
+          },
+          {
+            "prerequisites": [["trader_upgrade_swamp_biosphere"]],
+            "civilian_research_rate_scalar": 0.3,
+            "max_health_points": 300,
+            "military_research_rate_scalar": 0.3
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        {
+          "import_points": 1,
+          "export_points": { "credits": 1, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 2,
+          "export_points": { "credits": 2, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 3,
+          "export_points": { "credits": 3, "metal": 1, "crystal": 1 }
+        }
+      ]
+    },
+    {
+      "planet_type": "terran",
+      "can_ever_be_colonized": true,
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1500,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 3000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "max_military_structure_slots": 20,
+            "max_health_points": 5000,
+            "health_points_restore_rate": 8
+          },
+          {
+            "max_military_structure_slots": 30,
+            "max_health_points": 7500,
+            "health_points_restore_rate": 15
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 4,
+            "max_health_points": 300
+          },
+          {
+            "max_planet_component_slots": 5,
+            "max_civilian_structure_slots": 14,
+            "structure_builder_count": 4,
+            "max_health_points": 400
+          }
+        ],
+        "commerce": [
+          {},
+          { "credits_income_rate": 1.8, "max_health_points": 100 },
+          { "credits_income_rate": 4.2, "max_health_points": 200 },
+          { "credits_income_rate": 7.2, "max_health_points": 300 },
+          { "credits_income_rate": 10.8, "max_health_points": 400 },
+          { "credits_income_rate": 15, "max_health_points": 500 }
+        ],
+        "mining": [
+          {},
+          {
+            "metal_income_rate": 0.36,
+            "crystal_income_rate": 0.24,
+            "max_health_points": 100
+          },
+          {
+            "metal_income_rate": 0.84,
+            "crystal_income_rate": 0.56,
+            "max_health_points": 200
+          },
+          {
+            "metal_income_rate": 1.44,
+            "crystal_income_rate": 0.96,
+            "max_health_points": 300
+          }
+        ],
+        "research": [
+          {},
+          {
+            "civilian_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "military_research_rate_scalar": 0.05
+          },
+          {
+            "civilian_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "military_research_rate_scalar": 0.15
+          },
+          {
+            "civilian_research_rate_scalar": 0.3,
+            "max_health_points": 300,
+            "military_research_rate_scalar": 0.3
+          },
+          {
+            "civilian_research_rate_scalar": 0.5,
+            "max_health_points": 400,
+            "military_research_rate_scalar": 0.5
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        {
+          "import_points": 1,
+          "export_points": { "credits": 1, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 2,
+          "export_points": { "credits": 2, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 3,
+          "export_points": { "credits": 3, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 4,
+          "export_points": { "credits": 4, "metal": 1, "crystal": 1 }
+        },
+        {
+          "import_points": 5,
+          "export_points": { "credits": 5, "metal": 1, "crystal": 1 }
+        }
+      ]
+    },
+    {
+      "planet_type": "volcanic",
+      "can_ever_be_colonized": true,
+      "colonization_research_prerequisites": [
+        ["trader_unlock_volcanic_biosphere"]
+      ],
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1500,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 3000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "prerequisites": [["trader_upgrade_volcanic_biosphere"]],
+            "max_military_structure_slots": 20,
+            "max_health_points": 5000,
+            "health_points_restore_rate": 8
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 3,
+            "max_health_points": 200
+          },
+          {
+            "prerequisites": [["trader_upgrade_volcanic_biosphere"]],
+            "max_planet_component_slots": 4,
+            "max_civilian_structure_slots": 9,
+            "structure_builder_count": 3,
+            "max_health_points": 300
+          }
+        ],
+        "commerce": [
+          {},
+          {
+            "prerequisites": [["trader_upgrade_volcanic_biosphere"]],
+            "credits_income_rate": 1.8,
+            "max_health_points": 100
+          }
+        ],
+        "mining": [
+          {},
+          { "metal_income_rate": 0.48, "max_health_points": 100 },
+          { "metal_income_rate": 1.2, "max_health_points": 200 },
+          {
+            "prerequisites": [["trader_upgrade_volcanic_biosphere"]],
+            "metal_income_rate": 2.16,
+            "max_health_points": 300
+          }
+        ],
+        "research": [
+          {},
+          {
+            "military_research_rate_scalar": 0.05,
+            "max_health_points": 100,
+            "civilian_research_rate_scalar": 0.05
+          },
+          {
+            "military_research_rate_scalar": 0.15,
+            "max_health_points": 200,
+            "civilian_research_rate_scalar": 0.15
+          },
+          {
+            "military_research_rate_scalar": 0.3,
+            "max_health_points": 300,
+            "civilian_research_rate_scalar": 0.3
+          },
+          {
+            "prerequisites": [["trader_upgrade_volcanic_biosphere"]],
+            "military_research_rate_scalar": 0.5,
+            "max_health_points": 400,
+            "civilian_research_rate_scalar": 0.5
+          }
+        ]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        { "import_points": 1, "export_points": { "credits": 1, "metal": 2 } },
+        { "import_points": 2, "export_points": { "credits": 2, "metal": 2 } },
+        { "import_points": 3, "export_points": { "credits": 3, "metal": 2 } }
+      ]
+    },
+    {
+      "planet_type": "pirate_base",
+      "can_ever_be_colonized": true,
+      "tracks": {
+        "defense": [
+          {
+            "max_military_structure_slots": 0,
+            "max_health_points": 250,
+            "health_points_restore_rate": 1
+          },
+          {
+            "max_military_structure_slots": 5,
+            "max_health_points": 1000,
+            "health_points_restore_rate": 2
+          },
+          {
+            "max_military_structure_slots": 10,
+            "max_health_points": 2000,
+            "health_points_restore_rate": 4
+          },
+          {
+            "max_military_structure_slots": 20,
+            "max_health_points": 3500,
+            "health_points_restore_rate": 8
+          },
+          {
+            "max_military_structure_slots": 30,
+            "max_health_points": 5500,
+            "health_points_restore_rate": 15
+          },
+          {
+            "max_military_structure_slots": 40,
+            "max_health_points": 8000,
+            "health_points_restore_rate": 25
+          }
+        ],
+        "logistics": [
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 0,
+            "structure_builder_count": 1
+          },
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 2,
+            "structure_builder_count": 2,
+            "max_health_points": 100
+          },
+          {
+            "max_planet_component_slots": 3,
+            "max_civilian_structure_slots": 5,
+            "structure_builder_count": 2,
+            "max_health_points": 200
+          }
+        ],
+        "commerce": [
+          { "credits_income_rate": 0 },
+          { "credits_income_rate": 1.2, "max_health_points": 100 },
+          { "credits_income_rate": 2.7, "max_health_points": 200 },
+          { "credits_income_rate": 4.5, "max_health_points": 300 }
+        ],
+        "mining": [
+          {},
+          {
+            "metal_income_rate": 0.36,
+            "crystal_income_rate": 0.24,
+            "max_health_points": 100
+          }
+        ],
+        "research": [{}]
+      },
+      "maintenance_cost_rates": [],
+      "trade_capacity_levels": [
+        { "import_points": 1, "export_points": { "credits": 3 } }
+      ]
+    }
+  ],
+  "default_starting_assets": { "credits": 4500, "metal": 1050, "crystal": 750 },
+  "asteroid_extraction_rates": { "metal": 0.45, "crystal": 0.45 },
+  "planet_bombing_recovery_cooldown": 30,
+  "colonize_starting_health_percent": 1,
+  "colonize_starting_shield_percent": 1,
+  "culture": {
+    "decay_rates": [{ "decay_rate": 0.02 }],
+    "propagation_rates": [
+      { "propagation_rate_scalar": -2 },
+      {
+        "prerequisites": [["trader_improve_culture_propagation"]],
+        "propagation_rate_scalar": -1
+      }
+    ],
+    "friendly_unit_modifiers": [
+      {
+        "modifier_type": "max_linear_speed",
+        "value_behavior": "scalar",
+        "values": [
+          {
+            "value": 0.1,
+            "prerequisites": [
+              ["trader_unlock_culture_ship_max_linear_speed_bonus"]
+            ]
+          },
+          {
+            "value": 0.25,
+            "prerequisites": [
+              ["trader_upgrade_culture_ship_max_linear_speed_bonus"]
+            ]
+          },
+          {
+            "value": 0.45,
+            "prerequisites": [
+              ["trader_unlock_culture_ship_max_linear_speed_bonus_plus"]
+            ]
+          },
+          {
+            "value": 0.7,
+            "prerequisites": [
+              ["trader_upgrade_culture_ship_max_linear_speed_bonus_plus"]
+            ]
+          }
+        ]
+      }
+    ],
+    "friendly_planet_modifiers": [
+      {
+        "modifier_type": "commerce_track_credit_income_rate",
+        "value_behavior": "scalar",
+        "values": [
+          { "value": 0.1, "prerequisites": [["trader_unlock_culture_center"]] },
+          {
+            "value": 0.25,
+            "prerequisites": [
+              ["trader_unlock_culture_planet_credit_income_rate_bonus"]
+            ]
+          },
+          {
+            "value": 0.5,
+            "prerequisites": [
+              ["trader_unlock_culture_planet_credit_income_rate_bonus_plus"]
+            ]
+          }
+        ]
+      }
+    ],
+    "enemy_planet_modifiers": [
+      {
+        "modifier_type": "factory_unit_build_time",
+        "value_behavior": "scalar",
+        "values": [
+          {
+            "value": 0.25,
+            "prerequisites": [
+              ["trader_unlock_culture_unit_factory_production_penalty"]
+            ]
+          },
+          {
+            "value": 0.5,
+            "prerequisites": [
+              ["trader_unlock_culture_unit_factory_production_penalty_plus"]
+            ]
+          }
+        ]
+      },
+      {
+        "modifier_type": "factory_exotic_build_time",
+        "value_behavior": "scalar",
+        "values": [
+          {
+            "value": 0.25,
+            "prerequisites": [
+              ["trader_unlock_culture_unit_factory_production_penalty"]
+            ]
+          },
+          {
+            "value": 0.5,
+            "prerequisites": [
+              ["trader_unlock_culture_unit_factory_production_penalty_plus"]
+            ]
+          }
+        ]
+      }
+    ],
+    "planet_track_level_culture_providers": [
+      {
+        "track_type": "commerce",
+        "minimum_level": 3,
+        "prerequisites": [["trader_commerce_culture"]],
+        "rate": 0.01
+      }
+    ]
+  },
+  "find_npc_explore_prerequisites": [["trader_find_npc_explore"]],
+  "wormhole_research": [["trader_wormhole_travel"]],
+  "hyperspace_between_stars_research": [
+    ["trader_unlock_hyperspace_between_stars"]
+  ],
+  "buildable_exotics": [
+    {
+      "exotic_name": "defense",
+      "exotic_definition": {
+        "factory_build_time": 120,
+        "factory_build_price": { "credits": 400, "metal": 125, "crystal": 125 }
+      }
+    },
+    {
+      "exotic_name": "economic",
+      "exotic_definition": {
+        "factory_build_time": 120,
+        "factory_build_price": { "credits": 400, "metal": 125, "crystal": 125 }
+      }
+    },
+    {
+      "exotic_name": "offense",
+      "exotic_definition": {
+        "factory_build_time": 120,
+        "factory_build_price": { "credits": 400, "metal": 125, "crystal": 125 }
+      }
+    },
+    {
+      "exotic_name": "utility",
+      "exotic_definition": {
+        "factory_build_time": 120,
+        "factory_build_price": { "credits": 400, "metal": 125, "crystal": 125 }
+      }
+    },
+    {
+      "exotic_name": "ultimate",
+      "exotic_definition": {
+        "factory_build_time": 240,
+        "factory_build_price": { "credits": 800, "metal": 250, "crystal": 250 },
+        "factory_build_prerequisites": [["trader_unlock_build_ultimate_exotic"]]
+      }
+    }
+  ],
+  "garrison": {
+    "spawn_type": "build_from_factory",
+    "special_operation_unit_kind": "garrison",
+    "build_kinds": [
+      { "build_kind": "corvette" },
+      { "build_kind": "frigate" },
+      {
+        "build_kind": "cruiser",
+        "prerequisites": [["trader_unlock_heavy_garrison"]]
+      },
+      {
+        "build_kind": "capital_ship",
+        "prerequisites": [["trader_unlock_heavy_garrison_plus"]]
+      }
+    ],
+    "factory_build_time_scalar": 1.5,
+    "units": {
+      "random_units": [
+        { "unit": "trader_light_frigate", "weight": 100 },
+        { "unit": "trader_heavy_cruiser", "weight": 40 },
+        { "unit": "trader_long_range_cruiser", "weight": 40 },
+        { "unit": "trader_carrier_cruiser", "weight": 20 },
+        { "unit": "trader_skirmisher_corvette_frigate", "weight": 100 },
+        { "unit": "trader_antifighter_frigate", "weight": 20 },
+        { "unit": "trader_battle_capital_ship_plus", "weight": 2 },
+        { "unit": "trader_support_capital_ship_plus", "weight": 2 },
+        { "unit": "trader_carrier_capital_ship_plus", "weight": 2 },
+        { "unit": "trader_colony_capital_ship_plus", "weight": 1 },
+        { "unit": "trader_siege_capital_ship_plus", "weight": 1 }
+      ]
+    },
+    "base_max_supply": 0
+  },
+  "trade": {
+    "trade_income_rates": { "credits": 2, "metal": 1, "crystal": 1 },
+    "trade_ship_death_assets": { "credits": 250 },
+    "trade_ship_escorts": [
+      {
+        "unit": "trader_antifighter_frigate",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [["trader_unlock_trade_escorts_0"]],
+        "construction_time": 60
+      },
+      {
+        "unit": "trader_heavy_cruiser",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [["trader_unlock_trade_escorts_1"]],
+        "construction_time": 60
+      }
+    ]
+  },
+  "max_supply": {
+    "levels": [
+      { "max_supply": 100 },
+      { "max_supply": 250, "prerequisites": [["trader_max_supply_0"]] },
+      { "max_supply": 500, "prerequisites": [["trader_max_supply_1"]] },
+      { "max_supply": 1000, "prerequisites": [["trader_max_supply_2"]] },
+      { "max_supply": 1500, "prerequisites": [["trader_max_supply_3"]] },
+      { "max_supply": 2000, "prerequisites": [["trader_max_supply_4"]] },
+      { "max_supply": 2500, "prerequisites": [["trader_max_supply_0_plus"]] },
+      { "max_supply": 3000, "prerequisites": [["trader_max_supply_1_plus"]] }
+    ]
+  },
+  "unit_starting_experience": {
+    "levels": [
+      {
+        "starting_experience": 200,
+        "prerequisites": [["trader_capital_ship_starting_level_0"]]
+      },
+      {
+        "starting_experience": 700,
+        "prerequisites": [["trader_capital_ship_starting_level_1"]]
+      },
+      {
+        "starting_experience": 1600,
+        "prerequisites": [["trader_capital_ship_starting_level_0_plus"]]
+      },
+      {
+        "starting_experience": 3100,
+        "prerequisites": [["trader_capital_ship_starting_level_1_plus"]]
+      }
+    ]
+  },
+  "gui": {
+    "hud_skin_name": "trader_hud_skin",
+    "race_name": "player_race_name.trader",
+    "race_description": "player_race_description.trader",
+    "faction_name": "player_faction_name.trader_loyalist_plus_alt",
+    "faction_description": "player_faction_description.trader_loyalist",
+    "faction_icon": "trader_loyalist_faction_icon",
+    "load_screen_character_brush": "trader_load_screen_character",
+    "player_slot_plate": "trader_loyalist_player_slot_plate"
+  },
+  "unit_names": [
+    {
+      "group_name": "capital_ship",
+      "localized_text": { "id_prefix": "capital_ship_name.trader" }
+    },
+    {
+      "group_name": "fleet",
+      "localized_text": { "id_prefix": "fleet_name.trader" }
+    },
+    {
+      "group_name": "starbase",
+      "localized_text": { "id_prefix": "starbase_name.trader" }
+    },
+    {
+      "group_name": "titan",
+      "localized_text": { "id_prefix": "titan_name.trader" }
+    }
+  ],
+  "victory_gui": {
+    "types": {
+      "military": {
+        "won_pictures": ["trader_victory_picture_0"],
+        "lost_pictures": ["trader_defeat_picture_0"],
+        "won_texts": [
+          {
+            "status": "player_victory.status.military.won",
+            "phrase": "player_victory.phrase.military.won.trader"
+          }
+        ],
+        "lost_texts": [
+          {
+            "status": "player_victory.status.military.lost",
+            "phrase": "player_victory.phrase.military.lost.trader"
+          }
+        ]
+      },
+      "home_planet": {
+        "won_pictures": ["trader_victory_picture_0"],
+        "lost_pictures": ["trader_defeat_picture_0"],
+        "won_texts": [
+          {
+            "status": "player_victory.status.home_planet.won",
+            "phrase": "player_victory.phrase.home_planet.won.trader"
+          }
+        ],
+        "lost_texts": [
+          {
+            "status": "player_victory.status.home_planet.lost",
+            "phrase": "player_victory.phrase.home_planet.lost.trader"
+          }
+        ]
+      },
+      "diplomatic": {
+        "won_pictures": ["trader_victory_picture_0"],
+        "lost_pictures": ["trader_defeat_picture_0"],
+        "won_texts": [
+          {
+            "status": "player_victory.status.diplomatic.won",
+            "phrase": "player_victory.phrase.diplomatic.won.trader"
+          }
+        ],
+        "lost_texts": [
+          {
+            "status": "player_victory.status.diplomatic.lost",
+            "phrase": "player_victory.phrase.diplomatic.lost.trader"
+          }
+        ]
+      },
+      "colonization": {
+        "won_pictures": ["trader_victory_picture_0"],
+        "lost_pictures": ["trader_defeat_picture_0"],
+        "won_texts": [
+          {
+            "status": "player_victory.status.colonization.won",
+            "phrase": "player_victory.phrase.colonization.won.trader"
+          }
+        ],
+        "lost_texts": [
+          {
+            "status": "player_victory.status.colonization.lost",
+            "phrase": "player_victory.phrase.colonization.lost.trader"
+          }
+        ]
+      }
+    }
+  },
+  "sounds": {
+    "user_interface_sounds": {
+      "set_rally_point": {
+        "sound": "ui_set_rally_point",
+        "is_dialogue": false
+      },
+      "set_unit_factory_deliverable_destination": {
+        "sound": "ui_set_rally_point",
+        "is_dialogue": false
+      },
+      "build_structure": {
+        "sound": "ui_build_structure",
+        "is_dialogue": false
+      },
+      "set_planet_structure_plate_spin": {
+        "sound": "ui_build_structure",
+        "is_dialogue": false
+      },
+      "ping_attention": { "sound": "ui_common_ping", "is_dialogue": false },
+      "ping_attack": { "sound": "ui_common_ping", "is_dialogue": false },
+      "ping_defend": { "sound": "ui_common_ping", "is_dialogue": false },
+      "ping_received_attention": {
+        "sound": "ui_common_ping",
+        "is_dialogue": false
+      },
+      "ping_received_attack": {
+        "sound": "trader_narrator_ping_received_attack",
+        "is_dialogue": true
+      },
+      "ping_received_defend": {
+        "sound": "trader_narrator_ping_received_defend",
+        "is_dialogue": true
+      },
+      "control_group_created": {
+        "sound": "trader_narrator_control_group_created",
+        "is_dialogue": true
+      },
+      "civilian_research_subject_completed": {
+        "sound": "trader_narrator_civilian_research_subject_completed",
+        "is_dialogue": true
+      },
+      "military_research_subject_completed": {
+        "sound": "trader_narrator_military_research_subject_completed",
+        "is_dialogue": true
+      },
+      "victory_condition_alliance_guard_research_subject_completed": {
+        "sound": "ui_common_ping",
+        "is_dialogue": false
+      },
+      "ally_victory_condition_alliance_guard_research_subject_completed": {
+        "sound": "ui_common_ping",
+        "is_dialogue": false
+      },
+      "civilian_research_domain_tier_acquired": {
+        "sound": "trader_narrator_civilian_research_domain_tier_acquired",
+        "is_dialogue": true
+      },
+      "military_research_domain_tier_acquired": {
+        "sound": "trader_narrator_military_research_domain_tier_acquired",
+        "is_dialogue": true
+      },
+      "planet_being_bombed": {
+        "sound": "trader_narrator_planet_being_bombed",
+        "is_dialogue": true
+      },
+      "ally_planet_being_bombed": {
+        "sound": "trader_narrator_ally_planet_being_bombed",
+        "is_dialogue": true
+      },
+      "planet_discovered": {
+        "sound": "trader_narrator_planet_discovered",
+        "is_dialogue": true
+      },
+      "planet_colonized": {
+        "sound": "trader_narrator_planet_colonized",
+        "is_dialogue": true
+      },
+      "planet_lost": {
+        "sound": "trader_narrator_planet_lost",
+        "is_dialogue": true
+      },
+      "ally_planet_lost": {
+        "sound": "trader_narrator_ally_planet_lost",
+        "is_dialogue": true
+      },
+      "capital_planet_changed": {
+        "sound": "trader_narrator_capital_planet_changed",
+        "is_dialogue": true
+      },
+      "capital_planet_being_bombed": {
+        "sound": "trader_narrator_capital_planet_being_bombed",
+        "is_dialogue": true
+      },
+      "ally_capital_planet_being_bombed": {
+        "sound": "trader_narrator_ally_capital_planet_being_bombed",
+        "is_dialogue": true
+      },
+      "capital_planet_nearly_lost": {
+        "sound": "trader_narrator_capital_planet_nearly_lost",
+        "is_dialogue": true
+      },
+      "capital_planet_lost": {
+        "sound": "trader_narrator_capital_planet_lost",
+        "is_dialogue": true
+      },
+      "ally_capital_planet_lost": {
+        "sound": "trader_narrator_ally_capital_planet_lost",
+        "is_dialogue": true
+      },
+      "enemy_capital_planet_lost": {
+        "sound": "trader_narrator_enemy_capital_planet_lost",
+        "is_dialogue": true
+      },
+      "player_won": {
+        "sound": "trader_narrator_player_won",
+        "is_dialogue": true
+      },
+      "player_won_diplomatic": {
+        "sound": "trader_narrator_player_won_diplomatic",
+        "is_dialogue": true
+      },
+      "player_lost": {
+        "sound": "trader_narrator_player_lost",
+        "is_dialogue": true
+      },
+      "ally_player_lost": {
+        "sound": "trader_narrator_ally_player_lost",
+        "is_dialogue": true
+      },
+      "enemy_player_lost": {
+        "sound": "trader_narrator_enemy_player_lost",
+        "is_dialogue": true
+      },
+      "enemy_player_lost_by_player": {
+        "sound": "trader_narrator_enemy_player_lost_by_player",
+        "is_dialogue": true
+      },
+      "nothing_surveyed": {
+        "sound": "trader_narrator_nothing_surveyed",
+        "is_dialogue": true
+      },
+      "exotics_surveyed": {
+        "sound": "trader_narrator_exotics_surveyed",
+        "is_dialogue": true
+      },
+      "planet_artifact_surveyed": {
+        "sound": "trader_narrator_planet_artifact_surveyed",
+        "is_dialogue": true
+      },
+      "planet_bonus_surveyed": {
+        "sound": "trader_narrator_planet_bonus_surveyed",
+        "is_dialogue": true
+      },
+      "planet_track_upgrade_defense_completed": {
+        "sound": "trader_narrator_planet_track_upgrade_defense_completed",
+        "is_dialogue": true
+      },
+      "planet_track_upgrade_logistics_completed": {
+        "sound": "trader_narrator_planet_track_upgrade_logistics_completed",
+        "is_dialogue": true
+      },
+      "planet_track_upgrade_commerce_completed": {
+        "sound": "trader_narrator_planet_track_upgrade_commerce_completed",
+        "is_dialogue": true
+      },
+      "planet_track_upgrade_mining_completed": {
+        "sound": "trader_narrator_planet_track_upgrade_mining_completed",
+        "is_dialogue": true
+      },
+      "planet_track_upgrade_research_completed": {
+        "sound": "trader_narrator_planet_track_upgrade_research_completed",
+        "is_dialogue": true
+      },
+      "planet_component_finished_building": {
+        "sound": "trader_narrator_planet_component_finished_building",
+        "is_dialogue": true
+      },
+      "orbital_cannon_shell_detected": {
+        "sound": "trader_narrator_orbital_cannon_shell_detected",
+        "is_dialogue": true
+      },
+      "enemy_units_incoming": {
+        "sound": "trader_narrator_enemy_units_incoming",
+        "is_dialogue": true
+      },
+      "enemy_units_arrived": {
+        "sound": "trader_narrator_enemy_units_arrived",
+        "is_dialogue": true
+      },
+      "enemy_planet_made_dead_from_bombing": {
+        "sound": "trader_narrator_enemy_planet_made_dead_from_bombing",
+        "is_dialogue": true
+      },
+      "pirate_units_arrived": {
+        "sound": "trader_narrator_pirate_units_arrived",
+        "is_dialogue": true
+      },
+      "ally_special_operations_units_arrived": {
+        "sound": "trader_narrator_ally_special_operations_units_arrived",
+        "is_dialogue": true
+      },
+      "enemy_special_operations_units_arrived": {
+        "sound": "trader_narrator_enemy_special_operations_units_arrived",
+        "is_dialogue": true
+      },
+      "insufficient_credits": {
+        "sound": "trader_narrator_insufficient_credits",
+        "is_dialogue": true
+      },
+      "insufficient_metal": {
+        "sound": "trader_narrator_insufficient_metal",
+        "is_dialogue": true
+      },
+      "insufficient_crystal": {
+        "sound": "trader_narrator_insufficient_crystal",
+        "is_dialogue": true
+      },
+      "insufficient_civilian_structure_slots": {
+        "sound": "trader_narrator_insufficient_civilian_structure_slots",
+        "is_dialogue": true
+      },
+      "insufficient_civilian_structure_slots_at_max": {
+        "sound": "trader_narrator_insufficient_civilian_structure_slots_at_max",
+        "is_dialogue": true
+      },
+      "insufficient_military_structure_slots": {
+        "sound": "trader_narrator_insufficient_military_structure_slots",
+        "is_dialogue": true
+      },
+      "insufficient_military_structure_slots_at_max": {
+        "sound": "trader_narrator_insufficient_military_structure_slots_at_max",
+        "is_dialogue": true
+      },
+      "insufficient_unit_supply": {
+        "sound": "trader_narrator_insufficient_unit_supply",
+        "is_dialogue": true
+      },
+      "insufficient_unit_supply_at_max_supply": {
+        "sound": "trader_narrator_insufficient_unit_supply_at_max_supply",
+        "is_dialogue": true
+      },
+      "insufficient_antimatter": {
+        "sound": "trader_narrator_insufficient_antimatter",
+        "is_dialogue": true
+      },
+      "research_prerequisites_not_met": {
+        "sound": "trader_research_prerequisites_not_met",
+        "is_dialogue": true
+      },
+      "wormhole_travel_research_prerequisites_not_met": {
+        "sound": "trader_research_prerequisites_not_met",
+        "is_dialogue": true
+      },
+      "insufficient_civilian_research_points": {
+        "sound": "trader_narrator_insufficient_civilian_research_points",
+        "is_dialogue": true
+      },
+      "insufficient_military_research_points": {
+        "sound": "trader_narrator_insufficient_military_research_points",
+        "is_dialogue": true
+      },
+      "position_has_overlapped_unit": {
+        "sound": "trader_narrator_position_has_overlapped_unit",
+        "is_dialogue": true
+      },
+      "click_failed": { "sound": "ui_default_error", "is_dialogue": false },
+      "generic_order_issued": {
+        "sound": "ui_order_issued",
+        "is_dialogue": false
+      },
+      "generic_attack_order_issued": {
+        "sound": "ui_attack_order_issued",
+        "is_dialogue": false
+      },
+      "generic_cannot_hyperspace": {
+        "sound": "trader_narrator_generic_cannot_hyperspace",
+        "is_dialogue": true
+      },
+      "generic_joined_fleet": {
+        "sound": "trader_narrator_generic_joined_fleet",
+        "is_dialogue": true
+      },
+      "fleet_created": {
+        "sound": "trader_narrator_fleet_created",
+        "is_dialogue": true
+      },
+      "sell_npc_market_asset": {
+        "sound": "button_pressed",
+        "is_dialogue": false
+      },
+      "buy_npc_market_asset": {
+        "sound": "button_pressed",
+        "is_dialogue": false
+      },
+      "npc_metal_market_exclusive_player_started_positive": {
+        "sound": "trader_narrator_npc_metal_market_exclusive_player_started_positive",
+        "is_dialogue": true
+      },
+      "npc_metal_market_exclusive_player_started_negative": {
+        "sound": "trader_narrator_npc_metal_market_exclusive_player_started_negative",
+        "is_dialogue": true
+      },
+      "npc_crystal_market_exclusive_player_started_positive": {
+        "sound": "trader_narrator_npc_crystal_market_exclusive_player_started_positive",
+        "is_dialogue": true
+      },
+      "npc_crystal_market_exclusive_player_started_negative": {
+        "sound": "trader_narrator_npc_crystal_market_exclusive_player_started_negative",
+        "is_dialogue": true
+      },
+      "ally_capital_ship_destroyed": {
+        "sound": "trader_narrator_ally_capital_ship_destroyed",
+        "is_dialogue": true
+      },
+      "ally_starbase_destroyed": {
+        "sound": "trader_narrator_ally_starbase_destroyed",
+        "is_dialogue": true
+      },
+      "ally_titan_destroyed": {
+        "sound": "trader_narrator_ally_titan_destroyed",
+        "is_dialogue": true
+      },
+      "ally_titan_built": {
+        "sound": "trader_narrator_ally_titan_built",
+        "is_dialogue": true
+      },
+      "enemy_titan_built": {
+        "sound": "trader_narrator_enemy_titan_built",
+        "is_dialogue": true
+      },
+      "military_structure_built": {
+        "sound": "trader_narrator_military_structure_built",
+        "is_dialogue": true
+      },
+      "civilian_structure_built": {
+        "sound": "trader_narrator_civilian_structure_built",
+        "is_dialogue": true
+      },
+      "enemy_phase_jump_inhibitor_built": {
+        "sound": "trader_narrator_enemy_phase_jump_inhibitor_built",
+        "is_dialogue": true
+      },
+      "player_units_arrived_at_enemy_phase_jump_inhibitor": {
+        "sound": "trader_narrator_player_units_arrived_at_enemy_phase_jump_inhibitor",
+        "is_dialogue": true
+      },
+      "fleet_arrived": {
+        "sound": "trader_narrator_fleet_arrived",
+        "is_dialogue": true
+      },
+      "ally_fleet_arrived": {
+        "sound": "trader_narrator_ally_fleet_arrived",
+        "is_dialogue": true
+      },
+      "reinforcing_fleet_arrived": {
+        "sound": "trader_narrator_reinforcing_fleet_arrived",
+        "is_dialogue": true
+      },
+      "ally_reinforcing_fleet_arrived": {
+        "sound": "trader_narrator_ally_reinforcing_fleet_arrived",
+        "is_dialogue": true
+      },
+      "ally_reinforcing_fleet_incoming": {
+        "sound": "trader_narrator_ally_reinforcing_fleet_incoming",
+        "is_dialogue": true
+      },
+      "fleet_under_attack": {
+        "sound": "trader_narrator_fleet_under_attack",
+        "is_dialogue": true
+      },
+      "ally_fleet_under_attack": {
+        "sound": "trader_narrator_ally_fleet_under_attack",
+        "is_dialogue": true
+      },
+      "destroy_planet_started": {
+        "sound": "ui_common_ping",
+        "is_dialogue": false
+      },
+      "destroy_planet_rewards_given": {
+        "sound": "ui_common_ping",
+        "is_dialogue": false
+      },
+      "game_paused": {
+        "sound": "trader_narrator_game_paused",
+        "is_dialogue": true
+      },
+      "game_unpaused": {
+        "sound": "trader_narrator_game_unpaused",
+        "is_dialogue": true
+      },
+      "small_unit_factory_needed": {
+        "sound": "trader_narrator_small_unit_factory_needed",
+        "is_dialogue": true
+      },
+      "medium_unit_factory_needed": {
+        "sound": "trader_narrator_medium_unit_factory_needed",
+        "is_dialogue": true
+      },
+      "large_unit_factory_needed": {
+        "sound": "trader_narrator_large_unit_factory_needed",
+        "is_dialogue": true
+      },
+      "insufficient_offense_exotics": {
+        "sound": "trader_narrator_insufficient_offense_exotics",
+        "is_dialogue": true
+      },
+      "insufficient_defense_exotics": {
+        "sound": "trader_narrator_insufficient_defense_exotics",
+        "is_dialogue": true
+      },
+      "insufficient_utility_exotics": {
+        "sound": "trader_narrator_insufficient_utility_exotics",
+        "is_dialogue": true
+      },
+      "insufficient_economic_exotics": {
+        "sound": "trader_narrator_insufficient_economic_exotics",
+        "is_dialogue": true
+      },
+      "insufficient_ultimate_exotics": {
+        "sound": "trader_narrator_insufficient_ultimate_exotics",
+        "is_dialogue": true
+      },
+      "insufficient_generic_exotics": {
+        "sound": "trader_narrator_insufficient_generic_exotics",
+        "is_dialogue": true
+      },
+      "scuttle_planet_started": {
+        "sound": "trader_narrator_scuttle_planet_started",
+        "is_dialogue": true
+      },
+      "scuttle_unit_started": {
+        "sound": "trader_narrator_scuttle_unit_started",
+        "is_dialogue": true
+      },
+      "insufficient_unity_points": {
+        "sound": "ui_default_error",
+        "is_dialogue": false
+      },
+      "insufficient_unity_mana": {
+        "sound": "ui_default_error",
+        "is_dialogue": false
+      },
+      "unity_ability_cooldown_is_not_completed": {
+        "sound": "ui_default_error",
+        "is_dialogue": false
+      },
+      "player_added_first_ruler_ship": {
+        "sound": "ui_default_error",
+        "is_dialogue": false
+      },
+      "planet_conversion_started": {
+        "sound": "trader_narrator_planet_conversion_started",
+        "is_dialogue": true
+      },
+      "planet_conversion_colonized": {
+        "sound": "ui_default_error",
+        "is_dialogue": false
+      },
+      "alliance_offered_cease_fire": {
+        "sound": "trader_narrator_alliance_offered_cease_fire",
+        "is_dialogue": true
+      },
+      "alliance_offered_share_vision": {
+        "sound": "trader_narrator_alliance_offered_share_vision",
+        "is_dialogue": true
+      },
+      "alliance_offered_synergy": {
+        "sound": "ui_common_ping",
+        "is_dialogue": false
+      },
+      "alliance_accepted_cease_fire": {
+        "sound": "trader_narrator_alliance_accepted_cease_fire",
+        "is_dialogue": true
+      },
+      "alliance_accepted_share_vision": {
+        "sound": "trader_narrator_alliance_accepted_share_vision",
+        "is_dialogue": true
+      },
+      "alliance_accepted_synergy": {
+        "sound": "ui_common_ping",
+        "is_dialogue": false
+      },
+      "alliance_broken_cease_fire": {
+        "sound": "trader_narrator_alliance_broken_cease_fire",
+        "is_dialogue": true
+      },
+      "alliance_offered_share_vision_aggressive": {
+        "sound": "trader_narrator_alliance_offered_share_vision_aggressive",
+        "is_dialogue": true
+      },
+      "alliance_offered_synergy_aggressive": {
+        "sound": "ui_default_error",
+        "is_dialogue": false
+      },
+      "alliance_accepted_share_vision_aggressive": {
+        "sound": "trader_narrator_alliance_accepted_share_vision_aggressive",
+        "is_dialogue": true
+      },
+      "alliance_accepted_synergy_aggressive": {
+        "sound": "ui_default_error",
+        "is_dialogue": false
+      },
+      "alliance_broken_cease_fire_aggressive": {
+        "sound": "trader_narrator_alliance_broken_cease_fire_aggressive",
+        "is_dialogue": true
+      },
+      "artifact_captured": {
+        "sound": "trader_narrator_artifact_captured",
+        "is_dialogue": true
+      }
+    },
+    "unit_build_kind_sounds": [
+      { "build_kind": "corvette", "sound_id": "small_unit_factory_needed" },
+      { "build_kind": "frigate", "sound_id": "small_unit_factory_needed" },
+      { "build_kind": "cruiser", "sound_id": "medium_unit_factory_needed" },
+      {
+        "build_kind": "capital_ship",
+        "sound_id": "medium_unit_factory_needed"
+      },
+      { "build_kind": "titan", "sound_id": "large_unit_factory_needed" }
+    ]
+  },
+  "ai": {
+    "names": { "id_prefix": "player_ai_name.trader." },
+    "alliance_offer_decline_reasons": {
+      "cannot_give_away_home_or_last_planet": "player_ai_alliance_offer_decline_reason.cannot_give_away_home_or_last_planet",
+      "could_not_accept_due_to_insufficient_assets": "player_ai_alliance_offer_decline_reason.could_not_accept_due_to_insufficient_assets",
+      "could_not_accept_due_to_insufficient_exotics": "player_ai_alliance_offer_decline_reason.could_not_accept_due_to_insufficient_exotics",
+      "could_not_accept_due_to_other_reasons": "player_ai_alliance_offer_decline_reason.could_not_accept_due_to_other_reasons",
+      "cease_fire_required_before_other_alliances": "player_ai_alliance_offer_decline_reason.cease_fire_required_before_other_alliances",
+      "cease_fire_minimum_duration_required_before_other_alliances": "player_ai_alliance_offer_decline_reason.cease_fire_minimum_duration_required_before_other_alliances",
+      "alliance_must_not_have_other_demands": "player_ai_alliance_offer_decline_reason.alliance_must_not_have_other_demands",
+      "alliance_refused": "player_ai_alliance_offer_decline_reason.alliance_refused",
+      "give_planets_requires_synergy_alliance": "player_ai_alliance_offer_decline_reason.give_planets_requires_synergy_alliance",
+      "already_given_planet_recently": "player_ai_alliance_offer_decline_reason.already_given_planet_recently",
+      "trade_is_not_reasonable": "player_ai_alliance_offer_decline_reason.trade_is_not_reasonable"
+    }
+  },
+  "planet_elevators": {
+    "elevator_meshes": ["space_elevator"],
+    "starting_elevator_count": 3,
+    "per_level_elevator_count": 0.4,
+    "explosion_effect": "explosion_frigate",
+    "explosion_sound": "explosion_frigateshipdeath",
+    "car_count_per_elevator_connection": 35,
+    "car_max_travel_time": 80,
+    "car_max_travel_time_offset": 20,
+    "car_tangent_offset_distance": 2,
+    "car_path_count": 250,
+    "car_path_min_t_delta": 0.4,
+    "cars_texture_animation": "planet_elevator_cars_trader",
+    "car_width": 40,
+    "car_height": 64,
+    "car_basic_constants": { "emissive_factor": 0.1 }
+  },
+  "theme_picker_mesh_preview_units": [
+    "trader_battle_capital_ship",
+    "trader_light_frigate",
+    "trader_starbase"
+  ],
+  "theme_picker_skybox": "skybox_cloud_16"
+}
