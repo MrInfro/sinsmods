@@ -842,28 +842,32 @@
     "vasari_rebel_titan_unlock_extra_phase_missile_weapons_plus",
     "vasari_rebel_titan_unlock_phase_cannon_weapon_plus"
   ],
-  "ship_component_build_groups": [
+    "ship_component_build_groups": [
     {
-      "id": "offense",
-      "name": "ship_component_build_group_name_offense",
-      "column_count": 3
+        "id": "consumable",
+        "name": "ship_component_build_group_name_consumable",
+        "column_count": 2
     },
     {
-      "id": "defense",
-      "name": "ship_component_build_group_name_defense",
-      "column_count": 4
+        "id": "offense",
+        "name": "ship_component_build_group_name_offense",
+        "column_count": 3
     },
     {
-      "id": "utility",
-      "name": "ship_component_build_group_name_utility",
-      "column_count": 5
+        "id": "defense",
+        "name": "ship_component_build_group_name_defense",
+        "column_count": 3
     },
     {
-      "id": "infrastructure",
-      "name": "ship_component_build_group_name_infrastructure",
-      "column_count": 1
-    }
-  ],
+        "id": "utility",
+        "name": "ship_component_build_group_name_utility",
+        "column_count": 3
+    },
+    {
+        "id": "infrastructure",
+        "name": "ship_component_build_group_name_infrastructure",
+        "column_count": 3
+    }],
   "planet_components": [
     "vasari_ocean_floor_miner",
     "vasari_bazaar_plus",
