@@ -864,23 +864,27 @@
     "trader_loyalist_titan_unlock_beam_weapon_plus",
     "trader_loyalist_titan_unlock_missile_weapon_plus"
   ],
-  "ship_component_build_groups": [
+    "ship_component_build_groups": [
     {
-      "id": "offense",
-      "name": "ship_component_build_group_name_offense",
-      "column_count": 5
+        "id": "consumable",
+        "name": "ship_component_build_group_name_consumable",
+        "column_count": 2
     },
     {
-      "id": "defense",
-      "name": "ship_component_build_group_name_defense",
-      "column_count": 4
+        "id": "offense",
+        "name": "ship_component_build_group_name_offense",
+        "column_count": 4
     },
     {
-      "id": "utility",
-      "name": "ship_component_build_group_name_utility",
-      "column_count": 5
-    }
-  ],
+        "id": "defense",
+        "name": "ship_component_build_group_name_defense",
+        "column_count": 4
+    },
+    {
+        "id": "utility",
+        "name": "ship_component_build_group_name_utility",
+        "column_count": 4
+    }],
   "planet_components": [
     "trader_alloy_foundry",
     "trader_asteroid_civilian_research_lab",
