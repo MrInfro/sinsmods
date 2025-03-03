@@ -850,6 +850,11 @@
   ],
   "ship_component_build_groups": [
     {
+      "id": "consumable",
+      "name": "ship_component_build_group_name_consumable",
+      "column_count": 2
+    },
+    {
       "id": "offense",
       "name": "ship_component_build_group_name_offense",
       "column_count": 5
@@ -2178,7 +2183,7 @@
   "unity": {
     "base_max_mana": 0,
     "base_mana_restore_rate": 0,
-    "unity_agent": "advent_unity_agent"
+    "unity_agent": "advent_unity_agent_rebel"
   },
   "max_supply": {
     "levels": [
