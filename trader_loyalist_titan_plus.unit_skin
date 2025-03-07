@@ -36,22 +36,24 @@
               "is_shadow_blocker": true
             }
           },
-          {
-            "mesh_alias_name": "medturret_barrel_0",
-            "mesh_definition": {
-              "mesh": "trader_asset_medturret_barrel_0",
-              "shader": "ship",
-              "is_shadow_blocker": true
-            }
-          },
-          {
-            "mesh_alias_name": "medturret_mount_0",
-            "mesh_definition": {
-              "mesh": "trader_asset_medturret_mount_0",
-              "shader": "ship",
-              "is_shadow_blocker": true
-            }
-          },
+       {
+                "mesh_alias_name": "kodmedturret_barrel_0",
+                "mesh_definition":
+                {
+                    "mesh": "trader_heavy_cruiser_kodmedturret_barrel_0",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }
+            },
+            {
+                "mesh_alias_name": "kodmedturret_mount_0",
+                "mesh_definition":
+                {
+                    "mesh": "trader_heavy_cruiser_kodmedturret_mount_0",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }
+            },
           {
             "mesh_alias_name": "pdturret_barrel_0",
             "mesh_definition": {
