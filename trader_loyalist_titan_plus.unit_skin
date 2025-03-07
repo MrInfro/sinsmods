@@ -1,0 +1,586 @@
+{
+  "version": 0,
+  "name": { "group": "titan" },
+  "skin_stages": [
+    {
+      "is_main_view_icon_visible_camera_distance": 56237.985734,
+      "min_camera_distance": 1530.490889,
+      "gui": {
+        "hud_icon": "trader_loyalist_titan_hud_icon",
+        "hud_monochrome_icon": "trader_loyalist_titan_main_view_icon",
+        "hud_picture": "trader_loyalist_titan_hud_picture",
+        "tooltip_picture": "trader_loyalist_titan_tooltip_picture",
+        "name": "trader_loyalist_titan_name_plus",
+        "description": "trader_loyalist_titan_description"
+      },
+      "unit_mesh": {
+        "mesh": "trader_loyalist_titan",
+        "shader": "ship",
+        "is_shadow_blocker": true
+      },
+      "child_mesh_alias_bindings": {
+        "map": [
+          {
+            "mesh_alias_name": "beamturret_barrel_0",
+            "mesh_definition": {
+              "mesh": "trader_starbase_beamturret_barrel_0",
+              "shader": "ship",
+              "is_shadow_blocker": true
+            }
+          },
+          {
+            "mesh_alias_name": "beamturret_mount_0",
+            "mesh_definition": {
+              "mesh": "trader_starbase_beamturret_mount_0",
+              "shader": "ship",
+              "is_shadow_blocker": true
+            }
+          },
+          {
+            "mesh_alias_name": "medturret_barrel_0",
+            "mesh_definition": {
+              "mesh": "trader_asset_medturret_barrel_0",
+              "shader": "ship",
+              "is_shadow_blocker": true
+            }
+          },
+          {
+            "mesh_alias_name": "medturret_mount_0",
+            "mesh_definition": {
+              "mesh": "trader_asset_medturret_mount_0",
+              "shader": "ship",
+              "is_shadow_blocker": true
+            }
+          },
+          {
+            "mesh_alias_name": "pdturret_barrel_0",
+            "mesh_definition": {
+              "mesh": "trader_asset_pdturret_barrel_0",
+              "shader": "ship",
+              "is_shadow_blocker": true
+            }
+          },
+          {
+            "mesh_alias_name": "pdturret_mount_0",
+            "mesh_definition": {
+              "mesh": "trader_asset_pdturret_mount_0",
+              "shader": "ship",
+              "is_shadow_blocker": true
+            }
+          },
+          {
+            "mesh_alias_name": "trader_loyalist_titan_component_armor_0",
+            "mesh_definition": {
+              "mesh": "trader_loyalist_titan_component_armor_0",
+              "shader": "ship"
+            }
+          },
+          {
+            "mesh_alias_name": "trader_loyalist_titan_component_armor_1",
+            "mesh_definition": {
+              "mesh": "trader_loyalist_titan_component_armor_1",
+              "shader": "ship"
+            }
+          },
+          {
+            "mesh_alias_name": "trader_loyalist_titan_component_armor_2",
+            "mesh_definition": {
+              "mesh": "trader_loyalist_titan_component_armor_2",
+              "shader": "ship"
+            }
+          },
+          {
+            "mesh_alias_name": "trader_loyalist_titan_component_beam_mount",
+            "mesh_definition": {
+              "mesh": "trader_loyalist_titan_component_beam_mount",
+              "shader": "ship"
+            }
+          },
+          {
+            "mesh_alias_name": "trader_loyalist_titan_component_hangar",
+            "mesh_definition": {
+              "mesh": "trader_loyalist_titan_component_hangar",
+              "shader": "ship"
+            }
+          },
+          {
+            "mesh_alias_name": "trader_loyalist_titan_component_missiles",
+            "mesh_definition": {
+              "mesh": "trader_loyalist_titan_component_missiles",
+              "shader": "ship"
+            }
+          },
+          {
+            "mesh_alias_name": "trader_loyalist_titan_component_shield",
+            "mesh_definition": {
+              "mesh": "trader_loyalist_titan_component_shield",
+              "shader": "ship"
+            }
+          }
+        ]
+      },
+      "main_view_icon": {
+        "group": "titan",
+        "icon": "trader_loyalist_titan_main_view_icon",
+        "selected_icon": "trader_loyalist_titan_main_view_icon_selected",
+        "sub_selected_icon": "trader_loyalist_titan_main_view_icon_sub_selected"
+      },
+      "effects": {
+        "exhaust_effects": {
+          "particle_effects": [{ "particle_effect": "exhaust_tech_large_01" }]
+        },
+        "hyperspace_effects": {
+          "charge_effect": "hyperspace_tech_titan_chargeup",
+          "charge_effect_between_stars": "hyperspace_tech_titan_chargeup_interstellar",
+          "charge_effect_destabilized": "hyperspace_tech_titan_chargeup_unstable",
+          "travel_effect": "hyperspace_tech_titan_travel",
+          "travel_effect_between_stars": "hyperspace_tech_titan_travel_interstellar",
+          "travel_effect_destabilized": "hyperspace_tech_titan_travel_unstable",
+          "exit_effect": "hyperspace_tech_titan_exit",
+          "charge_sound": "hyperspace_chargeup",
+          "enter_sound": "hyperspace_entry",
+          "exit_sound": "hyperspace_exit"
+        },
+        "damage_effects": {
+          "max_damage_effect_count": 100,
+          "damage_effects": [
+            {
+              "max_count": 15,
+              "weight": 10,
+              "hull_percentage_threshold": 0.99,
+              "particle_effect": "damage_air_decompression",
+              "sound": "ambient_loop_airdecompression"
+            },
+            {
+              "max_count": 5,
+              "weight": 5,
+              "hull_percentage_threshold": 0.99,
+              "particle_effect": "damage_smoke_2"
+            },
+            {
+              "max_count": 10,
+              "weight": 5,
+              "hull_percentage_threshold": 0.75,
+              "particle_effect": "damage_smoke_3"
+            },
+            {
+              "max_count": 15,
+              "weight": 15,
+              "hull_percentage_threshold": 0.75,
+              "particle_effect": "tec_damage_escaping_gas",
+              "sound": "ambient_loop_tech_escaping_gas"
+            },
+            {
+              "max_count": 10,
+              "weight": 10,
+              "hull_percentage_threshold": 0.99,
+              "particle_effect": "damage_electricity",
+              "sound": "ambient_loop_electrical_damage"
+            },
+            {
+              "max_count": 10,
+              "weight": 10,
+              "hull_percentage_threshold": 0.75,
+              "particle_effect": "damage_electricity_2",
+              "sound": "ambient_loop_electrical_damage_01"
+            },
+            {
+              "max_count": 10,
+              "weight": 10,
+              "hull_percentage_threshold": 0.99,
+              "particle_effect": "tec_damage_embers"
+            },
+            {
+              "max_count": 25,
+              "weight": 25,
+              "hull_percentage_threshold": 0.75,
+              "particle_effect": "damage_fire",
+              "sound": "ambient_loop_firedamage"
+            },
+            {
+              "max_count": 15,
+              "weight": 15,
+              "hull_percentage_threshold": 0.75,
+              "particle_effect": "damage_fire_pillar",
+              "sound": "ambient_loop_firepillar_damage"
+            }
+          ]
+        },
+        "flair_effects": [
+          {
+            "mesh_point_name": "center",
+            "particle_effect": "tec_damage_loyalist_titan",
+            "constraint": "is_crippled"
+          }
+        ],
+        "level_up_effect": "titan_levelup",
+        "level_up_sound": "capitalship_levelup",
+        "shield_effect": "trader_loyalist_titan",
+        "effect_alias_bindings": [
+          {
+            "alias_name": "trader_loyalist_titan_beam_weapon_beam",
+            "alias_binding": {
+              "beam": "tech_battle_capital_ship_experimental_beam",
+              "sounds": ["weapon_techstarbasebeamheavy_travel"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_beam_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "tech_capital_gauss_cannon_impact",
+              "sounds": [
+                "weapon_impact_energy_heavy_hithull",
+                "weapon_impact_energy_heavy_hithull_01",
+                "weapon_impact_energy_heavy_hithull_02"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_beam_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "tech_capital_gauss_cannon_impact",
+              "sounds": [
+                "weapon_impact_generic_heavy_hitshields",
+                "weapon_impact_generic_heavy_hitshields_01",
+                "weapon_impact_generic_heavy_hitshields_02",
+                "weapon_impact_generic_heavy_hitshields_03"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_beam_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "weapon_tech_titanbeam_muzzle"
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_disruption_matrix_on_spawner",
+            "alias_binding": {
+              "particle_effect": "disruption_matrix",
+              "sounds": ["ability_activate_tech_disruptionmatrix"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_furious_defense",
+            "alias_binding": {
+              "particle_effect": "trader_loyalist_titan_furious_defense",
+              "sounds": ["ability_activate_tech_furious_defense"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_invulnerability_field_activate",
+            "alias_binding": {
+              "particle_effect": "invulnerability_field_activation",
+              "sounds": ["ability_activate_tech_invulnerabilityfield"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_invulnerability_field_buff_on_spawner",
+            "alias_binding": {
+              "particle_effect": "invulnerability_field_radius",
+              "sounds": ["ambient_loop_tech_invulnerabilityfield"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_invulnerability_field_buff_on_target_large",
+            "alias_binding": {
+              "particle_effect": "invulnerability_field_on_target_large",
+              "sounds": ["ability_activate_tech_furious_defense"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_invulnerability_field_buff_on_target_medium",
+            "alias_binding": {
+              "particle_effect": "invulnerability_field_on_target_medium",
+              "sounds": ["ability_activate_tech_furious_defense"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_invulnerability_field_buff_on_target_small",
+            "alias_binding": {
+              "particle_effect": "invulnerability_field_on_target_small",
+              "sounds": ["ability_activate_tech_furious_defense"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_light_autocannon_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "light_autocannon_impact",
+              "sounds": [
+                "weapon_impact_physical_light_hithull",
+                "weapon_impact_physical_light_hithull_01",
+                "weapon_impact_physical_light_hithull_02",
+                "weapon_impact_physical_light_hithull_03",
+                "weapon_impact_physical_light_hithull_04"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_light_autocannon_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "light_autocannon_impact",
+              "sounds": [
+                "weapon_impact_generic_light_hitshields",
+                "weapon_impact_generic_light_hitshields_01",
+                "weapon_impact_generic_light_hitshields_02",
+                "weapon_impact_generic_light_hitshields_03"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_light_autocannon_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "trader_capital_light_autocannon_weapon_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_light_autocannon",
+                "weapon_muzzle_tech_light_autocannon_01",
+                "weapon_muzzle_tech_light_autocannon_02",
+                "weapon_muzzle_tech_light_autocannon_03"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_light_autocannon_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "trader_light_autocannon_weapon_projectile_travel"
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_medium_autocannon_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "medium_autocannon_impact",
+              "sounds": [
+                "weapon_impact_physical_medium_hithull",
+                "weapon_impact_physical_medium_hithull_01",
+                "weapon_impact_physical_medium_hithull_02",
+                "weapon_impact_physical_medium_hithull_03",
+                "weapon_impact_physical_medium_hithull_04"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_medium_autocannon_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "medium_autocannon_impact",
+              "sounds": [
+                "weapon_impact_generic_medium_hitshields",
+                "weapon_impact_generic_medium_hitshields_01",
+                "weapon_impact_generic_medium_hitshields_02",
+                "weapon_impact_generic_medium_hitshields_03"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_medium_autocannon_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "trader_capital_medium_autocannon_weapon_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_medium_autocannon",
+                "weapon_muzzle_tech_medium_autocannon_01",
+                "weapon_muzzle_tech_medium_autocannon_02",
+                "weapon_muzzle_tech_medium_autocannon_03",
+                "weapon_muzzle_tech_medium_autocannon_04",
+                "weapon_muzzle_tech_medium_autocannon_05"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_medium_autocannon_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "trader_medium_autocannon_weapon_projectile_travel"
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_medium_missile_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "titan_torpedo_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_medium_missile_capship",
+                "weapon_muzzle_tech_medium_missile_capship_01",
+                "weapon_muzzle_tech_medium_missile_capship_02",
+                "weapon_muzzle_tech_medium_missile_capship_03"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_planet_bombing_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": ["weapon_impact_tech_planetbomb"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_planet_bombing_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": ["weapon_impact_tech_planetbomb"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_planet_bombing_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "weapon_techcapitalplanetbombing_muzzle",
+              "sounds": ["weapon_muzzle_tech_planetbomb"]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_planet_bombing_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "weapon_techcapitalplanetbombing_travel"
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_point_defense_autocannon_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "pd_autocannon_impact",
+              "sounds": [
+                "weapon_impact_physical_pointdefense_hithull",
+                "weapon_impact_physical_pointdefense_hithull_01",
+                "weapon_impact_physical_pointdefense_hithull_02",
+                "weapon_impact_physical_pointdefense_hithull_03"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_point_defense_autocannon_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "pd_autocannon_impact",
+              "sounds": [
+                "weapon_impact_generic_pointdefense_hitshields",
+                "weapon_impact_generic_pointdefense_hitshields_01",
+                "weapon_impact_generic_pointdefense_hitshields_02",
+                "weapon_impact_generic_pointdefense_hitshields_03"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_point_defense_autocannon_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "trader_capital_point_defense_autocannon_weapon_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_pointdefense_autocannon",
+                "weapon_muzzle_tech_pointdefense_autocannon_01",
+                "weapon_muzzle_tech_pointdefense_autocannon_02",
+                "weapon_muzzle_tech_pointdefense_autocannon_03"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_point_defense_autocannon_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "trader_point_defense_autocannon_weapon_projectile_travel"
+            }
+          },
+          {
+            "alias_name": "trader_loyalist_titan_shield_surge_activate",
+            "alias_binding": {
+              "particle_effect": "trader_loyalist_titan_shield_surge_activate",
+              "sounds": ["ability_activate_tech_shield_surge"]
+            }
+          }
+        ]
+      },
+      "sounds": {
+        "move_sounds": {
+          "engine": "engine_techcapitalship",
+          "hyperspace_travel": "hyperspace_travel"
+        },
+        "dialogue": {
+          "spawned": { "neutral": ["trader_loyalist_titan_spawned_neutral_0"] },
+          "selected": {
+            "neutral": [
+              "trader_loyalist_titan_selected_neutral_0",
+              "trader_loyalist_titan_selected_neutral_1",
+              "trader_loyalist_titan_selected_neutral_2"
+            ],
+            "scared": [
+              "trader_loyalist_titan_selected_scared_0",
+              "trader_loyalist_titan_selected_scared_1",
+              "trader_loyalist_titan_selected_scared_2"
+            ]
+          },
+          "order_issued": {
+            "neutral": [
+              "trader_loyalist_titan_order_issued_neutral_0",
+              "trader_loyalist_titan_order_issued_neutral_1",
+              "trader_loyalist_titan_order_issued_neutral_2"
+            ],
+            "scared": [
+              "trader_loyalist_titan_order_issued_scared_0",
+              "trader_loyalist_titan_order_issued_scared_1",
+              "trader_loyalist_titan_order_issued_scared_2"
+            ]
+          },
+          "attack_order_issued": {
+            "neutral": [
+              "trader_loyalist_titan_attack_order_issued_neutral_0",
+              "trader_loyalist_titan_attack_order_issued_neutral_1",
+              "trader_loyalist_titan_attack_order_issued_neutral_2",
+              "trader_loyalist_titan_attack_order_issued_neutral_3"
+            ],
+            "scared": [
+              "trader_loyalist_titan_attack_order_issued_scared_0",
+              "trader_loyalist_titan_attack_order_issued_scared_1",
+              "trader_loyalist_titan_attack_order_issued_scared_2",
+              "trader_loyalist_titan_attack_order_issued_scared_3"
+            ],
+            "smug": [
+              "trader_loyalist_titan_attack_order_issued_smug_0",
+              "trader_loyalist_titan_attack_order_issued_smug_1",
+              "trader_loyalist_titan_attack_order_issued_smug_2",
+              "trader_loyalist_titan_attack_order_issued_smug_3"
+            ]
+          },
+          "retreat": {
+            "neutral": ["trader_loyalist_titan_retreat_neutral_0"],
+            "scared": ["trader_loyalist_titan_retreat_scared_0"]
+          },
+          "hyperspace_charge_started": {
+            "neutral": [
+              "trader_loyalist_titan_hyperspace_charge_started_neutral_0"
+            ]
+          },
+          "cannot_hyperspace": {
+            "neutral": ["trader_loyalist_titan_cannot_hyperspace_neutral_0"],
+            "scared": ["trader_loyalist_titan_cannot_hyperspace_scared_0"]
+          },
+          "shields_down": {
+            "neutral": ["trader_loyalist_titan_shields_down_neutral_0"],
+            "scared": ["trader_loyalist_titan_shields_down_scared_0"]
+          },
+          "armor_down": {
+            "scared": ["trader_loyalist_titan_armor_down_scared_0"]
+          },
+          "became_crippled": {
+            "neutral": ["trader_loyalist_titan_became_crippled_neutral_0"],
+            "scared": ["trader_loyalist_titan_became_crippled_scared_0"]
+          },
+          "destroyed": {
+            "neutral": ["trader_loyalist_titan_destroyed_neutral_0"],
+            "scared": ["trader_loyalist_titan_destroyed_scared_0"]
+          },
+          "ship_component_finished_building": {
+            "neutral": [
+              "trader_loyalist_titan_ship_component_finished_building_neutral_0"
+            ]
+          },
+          "ability_cooldown_is_not_completed": {
+            "neutral": [
+              "trader_loyalist_titan_ability_cooldown_is_not_completed_neutral_0"
+            ],
+            "scared": [
+              "trader_loyalist_titan_ability_cooldown_is_not_completed_scared_0"
+            ]
+          },
+          "insufficient_antimatter": {
+            "neutral": [
+              "trader_loyalist_titan_insufficient_antimatter_neutral_0"
+            ],
+            "scared": ["trader_loyalist_titan_insufficient_antimatter_scared_0"]
+          }
+        }
+      },
+      "death_sequence_group": "trader_titan"
+    }
+  ]
+}
