@@ -80,9 +80,6 @@
             "metal": 120.0,
             "crystal": 60.0
         },
-        "prerequisites": [
-            ["vasari_unlock_resource_extractor_structures"]
-        ],
         "build_kind": "structure",
         "build_radius": 301.992004
     },
