@@ -1,0 +1,100 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 257.809875,
+        "box":
+        {
+            "center": [-0.018494, 8.458611, 0.04483],
+            "extents": [213.540604, 156.600555, 213.540604]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 25.0,
+        "is_always_a_threat": false
+    },
+    "user_interface":
+    {
+        "pip_type": "frigate",
+        "can_ever_be_selected": true,
+        "selection_priority": 100,
+        "has_sub_selection_grouping": true,
+        "selection_group_unit_type": "civilian_structure"
+    },
+    "structure":
+    {
+        "slot_type": "civilian",
+        "slots_required": 0,
+        "roles": [
+            "extractor"
+        ],
+        "asteroid_asset_type": "metal",
+        "build_group_id": "civilian"
+    },
+    "formation":
+    {
+        "leader_priority": 3,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 4,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris":
+    {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "vasari",
+        "generic_counts":
+        {
+            "small_debris": [10, 12],
+            "large_debris": [1, 2]
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 3.8,
+        "durability": 600.0,
+        "levels": [
+        {
+            "max_hull_points": 900.0,
+            "hull_point_restore_rate": 3.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "max_armor_points": 120.0,
+            "armor_point_restore_rate": 2.4,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_strength": 48.0,
+            "experience_given_on_death": 25.0
+        }]
+    },
+    "build":
+    {
+        "build_time": 45.0,
+        "price":
+        {
+            "metal": 120.0,
+            "crystal": 60.0
+        },
+        "prerequisites": [
+            ["vasari_unlock_resource_extractor_structures"]
+        ],
+        "build_kind": "structure",
+        "build_radius": 301.992004
+    },
+    "target_filter_unit_type": "structure",
+    "tags": [
+        "structure"
+    ],
+    "virtual_supply_cost": 5,
+    "skin_groups": [
+    {
+        "skins": [
+            "vasari_metal_extractor_structure"]
+    }],
+    "action_effect_size": "medium_unit"
+}
